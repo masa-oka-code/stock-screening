@@ -1,0 +1,50 @@
+name: 株式スクリーニング 毎日19時自動実行
+
+on:
+  # 毎日 19:00 JST（= UTC 10:00）に自動実行
+  schedule:
+    - cron: '0 10 * * *'
+
+  # GitHub の画面からボタンで手動実行も可能（動作確認用）
+  workflow_dispatch:
+
+jobs:
+  screening:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 結果JSONをリポジトリにコミットするために必要
+
+    steps:
+      # 1. リポジトリをチェックアウト
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      # 2. Python セットアップ
+      - name: Python 3.11 セットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. 依存パッケージのインストール
+      - name: 依存パッケージをインストール
+        run: pip install -r requirements.txt
+
+      # 4. パイプライン実行（スクリーニング＋メール送信）
+      - name: スクリーニング実行
+        env:
+          NEWSAPI_KEY:        ${{ secrets.NEWSAPI_KEY }}
+          EMAIL_SENDER:       ${{ secrets.EMAIL_SENDER }}
+          EMAIL_RECEIVER:     ${{ secrets.EMAIL_RECEIVER }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+        run: python scheduler.py now
+
+      # 5. 結果JSONをリポジトリにコミット（Streamlit が読み込む）
+      - name: 結果をコミット＆プッシュ
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/results/
+          # 変更がない場合はスキップ（エラーにしない）
+          git diff --staged --quiet || git commit -m "screening: $(date +'%Y-%m-%d') の結果を自動保存"
+          git push

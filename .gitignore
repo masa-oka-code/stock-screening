@@ -1,0 +1,30 @@
+# シークレット・環境変数（絶対にGitHubに上げない）
+.env
+config_local.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# データ（結果JSONは GitHub Actions がコミットするので除外しない）
+# data/results/ は除外しない → Streamlit が読み込むため
+
+# ログ
+scheduler.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/

@@ -1,0 +1,61 @@
+bargain:
+  enabled: true
+  market_drawdown_threshold: -0.1
+  min_financial_stability_score: 70
+  pbr_threshold: 1.2
+  per_discount_threshold: 0.8
+email:
+  app_password: "ENV"        # 実際の値は GitHub Secrets / .env に記載
+  enabled: true
+  receiver: "ENV"            # 実際の値は GitHub Secrets / .env に記載
+  send_hour: 19
+  sender: "ENV"              # 実際の値は GitHub Secrets / .env に記載
+filters:
+  dividend_mode: false
+  max_price_jpy: 50000
+  max_price_usd: 1000
+  min_dividend_yield: 0.02
+  min_market_cap_billion: 100
+  min_price_jpy: 300
+  min_price_usd: 5
+macro:
+  crisis_kw_threshold: 15
+  macro_score_suspend: -40
+  macro_score_warning: -20
+  vix_bargain_opportunity: 30
+  vix_danger: 35
+  vix_warning: 25
+markets:
+  japan: true
+  us: true
+newsapi_key: "ENV"           # 実際の値は GitHub Secrets / .env に記載
+scoring:
+  bargain_mode_score: 45
+  min_total_score: 55
+  weights:
+    fundamental: 40
+    news: 30
+    sector: 10
+    technical: 20
+sectors_jp:
+- 情報・通信
+- 電気機器
+- 医薬品
+- 食料品
+- 銀行業
+- 小売業
+- 不動産業
+- 化学
+- 機械
+- 輸送用機器
+sectors_us:
+- Technology
+- Healthcare
+- Financials
+- Consumer Discretionary
+- Consumer Staples
+- Industrials
+- Energy
+- Utilities
+- Real Estate
+- Materials

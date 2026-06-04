@@ -1,0 +1,616 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T08:33:55.867644",
+  "macro": {
+    "vix": 16.049999237060547,
+    "sp500_30d": 0.06904067366511216,
+    "nk225_30d": 0.1460347345263546,
+    "usdjpy": 159.63999938964844,
+    "risk_level": "LOW",
+    "macro_score": 0,
+    "bargain_mode": false,
+    "suspend": false,
+    "reasons": []
+  },
+  "candidates": [
+    {
+      "ticker": "META",
+      "market": "US",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "current_price": 600.47,
+      "total_score": 69.0,
+      "breakdown": {
+        "fundamental": 29,
+        "technical": 14,
+        "news": 21,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 8,
+      "bargain_reasons": [
+        "52週下位(29%)"
+      ],
+      "fund_comment": "PER適正(16.6)・売上+33%・利益+62%・ROE高(33%)・財務健全",
+      "tech_comment": "短期↑・RSI適正(42)・MACD↑・BB割安圏・出来高↑1.8x",
+      "rsi": 41.6172482744599,
+      "div_yield": 0.0033,
+      "pe": 16.604944,
+      "comment": "PER適正(16.6)・売上+33%・利益+62%・ROE高(33%)・財務健全・短期↑・RSI適正(42)・MACD↑・BB割安圏・出来高↑1.8x"
+    },
+    {
+      "ticker": "6902.T",
+      "market": "JP",
+      "name": "デンソー",
+      "sector": "Consumer Cyclical",
+      "current_price": 1869.0,
+      "total_score": 66.0,
+      "breakdown": {
+        "fundamental": 31,
+        "technical": 15,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 35,
+      "bargain_reasons": [
+        "PER割安(11.5)",
+        "PBR低(0.9)",
+        "52週安値圏(12%)"
+      ],
+      "fund_comment": "PER割安(9.7)・PBR<1(0.9)・配当4.0%・利益+69%・財務健全",
+      "tech_comment": "短期↑・GC・RSI適正(47)・MACD↑・BB割安圏",
+      "rsi": 47.3414278576657,
+      "div_yield": 0.039599999999999996,
+      "pe": 9.692978,
+      "comment": "PER割安(9.7)・PBR<1(0.9)・配当4.0%・利益+69%・財務健全・短期↑・GC・RSI適正(47)・MACD↑・BB割安圏"
+    },
+    {
+      "ticker": "NVDA",
+      "market": "US",
+      "name": "NVIDIA Corp.",
+      "sector": "Technology",
+      "current_price": 224.36,
+      "total_score": 63.0,
+      "breakdown": {
+        "fundamental": 28,
+        "technical": 8,
+        "news": 22,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER適正(17.7)・売上+85%・利益+214%・ROE高(114%)・財務健全",
+      "tech_comment": "中期↑・RSI適正(60)",
+      "rsi": 60.39252942005868,
+      "div_yield": 0.004699999999999999,
+      "pe": 17.725458,
+      "comment": "PER適正(17.7)・売上+85%・利益+214%・ROE高(114%)・財務健全・中期↑・RSI適正(60)"
+    },
+    {
+      "ticker": "BAC",
+      "market": "US",
+      "name": "Bank of America",
+      "sector": "Financial Services",
+      "current_price": 51.51,
+      "total_score": 63.0,
+      "breakdown": {
+        "fundamental": 26,
+        "technical": 17,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER大割安(12.8)"
+      ],
+      "fund_comment": "PER割安(10.2)・PBR低(1.3)・配当2.2%・利益+24%・ROE(11%)",
+      "tech_comment": "中期↑・短期↑・RSI適正(51)・MACD↑・BB割安圏",
+      "rsi": 50.529529427262325,
+      "div_yield": 0.0217,
+      "pe": 10.201091,
+      "comment": "PER割安(10.2)・PBR低(1.3)・配当2.2%・利益+24%・ROE(11%)・中期↑・短期↑・RSI適正(51)・MACD↑・BB割安圏"
+    },
+    {
+      "ticker": "NEM",
+      "market": "US",
+      "name": "Newmont Corp.",
+      "sector": "Basic Materials",
+      "current_price": 108.19,
+      "total_score": 63.0,
+      "breakdown": {
+        "fundamental": 32,
+        "technical": 11,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER大割安(14.0)"
+      ],
+      "fund_comment": "PER割安(9.5)・売上+46%・利益+79%・ROE高(26%)・財務健全",
+      "tech_comment": "中期↑・RSI適正(46)・BB割安圏",
+      "rsi": 46.15788284680634,
+      "div_yield": 0.0095,
+      "pe": 9.486515,
+      "comment": "PER割安(9.5)・売上+46%・利益+79%・ROE高(26%)・財務健全・中期↑・RSI適正(46)・BB割安圏"
+    },
+    {
+      "ticker": "ADBE",
+      "market": "US",
+      "name": "Adobe Inc.",
+      "sector": "Technology",
+      "current_price": 274.03,
+      "total_score": 61.0,
+      "breakdown": {
+        "fundamental": 23,
+        "technical": 16,
+        "news": 17,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 18,
+      "bargain_reasons": [
+        "PER割安(16.0)",
+        "52週下位(25%)"
+      ],
+      "fund_comment": "PER割安(10.4)・売上+12%・ROE高(59%)・財務健全・流動性低⚠",
+      "tech_comment": "中期↑・短期↑・GC・RSI適正(66)・MACD↑・BB過熱・出来高↑1.7x",
+      "rsi": 65.95043437550066,
+      "div_yield": 0.0,
+      "pe": 10.385404,
+      "comment": "PER割安(10.4)・売上+12%・ROE高(59%)・財務健全・流動性低⚠・中期↑・短期↑・GC・RSI適正(66)・MACD↑・BB過熱・出来高↑1.7x"
+    },
+    {
+      "ticker": "AAPL",
+      "market": "US",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "current_price": 306.31,
+      "total_score": 60.0,
+      "breakdown": {
+        "fundamental": 20,
+        "technical": 14,
+        "news": 21,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER割高(31.9)・売上+17%・利益+22%・ROE高(141%)",
+      "tech_comment": "中期↑・短期↑・RSI適正(67)・MACD↑",
+      "rsi": 67.17229292899992,
+      "div_yield": 0.0034999999999999996,
+      "pe": 31.880991,
+      "comment": "PER割高(31.9)・売上+17%・利益+22%・ROE高(141%)・中期↑・短期↑・RSI適正(67)・MACD↑"
+    },
+    {
+      "ticker": "AVGO",
+      "market": "US",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "current_price": 459.97,
+      "total_score": 59.0,
+      "breakdown": {
+        "fundamental": 23,
+        "technical": 14,
+        "news": 17,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "売上+30%・利益+32%・ROE高(33%)",
+      "tech_comment": "中期↑・短期↑・RSI適正(70)・MACD↑・BB過熱",
+      "rsi": 69.75427869984335,
+      "div_yield": 0.0058,
+      "pe": 24.802351,
+      "comment": "売上+30%・利益+32%・ROE高(33%)・中期↑・短期↑・RSI適正(70)・MACD↑・BB過熱"
+    },
+    {
+      "ticker": "5108.T",
+      "market": "JP",
+      "name": "ブリヂストン",
+      "sector": "Consumer Cyclical",
+      "current_price": 3419.0,
+      "total_score": 59.0,
+      "breakdown": {
+        "fundamental": 29,
+        "technical": 10,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 10,
+      "bargain_reasons": [
+        "PBR低(1.2)"
+      ],
+      "fund_comment": "PER割安(6.1)・PBR低(1.2)・配当3.8%・利益+30%・財務健全",
+      "tech_comment": "短期↑・RSI適正(56)・MACD↑・BB過熱",
+      "rsi": 56.43012666110684,
+      "div_yield": 0.038,
+      "pe": 6.1175923,
+      "comment": "PER割安(6.1)・PBR低(1.2)・配当3.8%・利益+30%・財務健全・短期↑・RSI適正(56)・MACD↑・BB過熱"
+    },
+    {
+      "ticker": "3659.T",
+      "market": "JP",
+      "name": "ネクソン",
+      "sector": "Communication Services",
+      "current_price": 2307.0,
+      "total_score": 59.0,
+      "breakdown": {
+        "fundamental": 32,
+        "technical": 7,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(7%)"
+      ],
+      "fund_comment": "PER適正(13.8)・PBR低(1.7)・配当2.6%・売上+34%・利益+125%・ROE(12%)・財務健全",
+      "tech_comment": "MACD↑・BB割安圏",
+      "rsi": 39.93582789397571,
+      "div_yield": 0.026000000000000002,
+      "pe": 13.792898,
+      "comment": "PER適正(13.8)・PBR低(1.7)・配当2.6%・売上+34%・利益+125%・ROE(12%)・財務健全・MACD↑・BB割安圏"
+    },
+    {
+      "ticker": "V",
+      "market": "US",
+      "name": "Visa Inc.",
+      "sector": "Financial Services",
+      "current_price": 322.77,
+      "total_score": 58.0,
+      "breakdown": {
+        "fundamental": 25,
+        "technical": 13,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 8,
+      "bargain_reasons": [
+        "52週下位(35%)"
+      ],
+      "fund_comment": "PER適正(21.7)・売上+17%・利益+36%・ROE高(60%)・財務健全",
+      "tech_comment": "中期↑・短期↑・RSI適正(50)・BB割安圏",
+      "rsi": 49.682954869573884,
+      "div_yield": 0.008199999999999999,
+      "pe": 21.74638,
+      "comment": "PER適正(21.7)・売上+17%・利益+36%・ROE高(60%)・財務健全・中期↑・短期↑・RSI適正(50)・BB割安圏"
+    },
+    {
+      "ticker": "FCX",
+      "market": "US",
+      "name": "Freeport-McMoRan",
+      "sector": "Basic Materials",
+      "current_price": 67.04,
+      "total_score": 58.0,
+      "breakdown": {
+        "fundamental": 24,
+        "technical": 14,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER適正(18.0)・利益+153%・ROE(16%)・財務健全",
+      "tech_comment": "中期↑・短期↑・RSI適正(60)・MACD↑",
+      "rsi": 59.70595967290508,
+      "div_yield": 0.0091,
+      "pe": 17.981049,
+      "comment": "PER適正(18.0)・利益+153%・ROE(16%)・財務健全・中期↑・短期↑・RSI適正(60)・MACD↑"
+    },
+    {
+      "ticker": "GOOGL",
+      "market": "US",
+      "name": "Alphabet Inc.",
+      "sector": "Communication Services",
+      "current_price": 376.37,
+      "total_score": 57.0,
+      "breakdown": {
+        "fundamental": 29,
+        "technical": 8,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "高配当23.0%・売上+22%・利益+82%・ROE高(39%)・財務健全",
+      "tech_comment": "中期↑・RSI適正(50)",
+      "rsi": 49.77297525053343,
+      "div_yield": 0.23,
+      "pe": 25.965183,
+      "comment": "高配当23.0%・売上+22%・利益+82%・ROE高(39%)・財務健全・中期↑・RSI適正(50)"
+    },
+    {
+      "ticker": "AMZN",
+      "market": "US",
+      "name": "Amazon.com Inc.",
+      "sector": "Consumer Cyclical",
+      "current_price": 261.26,
+      "total_score": 57.0,
+      "breakdown": {
+        "fundamental": 23,
+        "technical": 10,
+        "news": 19,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "売上+17%・利益+75%・ROE高(24%)・財務健全",
+      "tech_comment": "中期↑・短期↑・RSI適正(49)",
+      "rsi": 48.947167981510255,
+      "div_yield": 0.0,
+      "pe": 26.486725,
+      "comment": "売上+17%・利益+75%・ROE高(24%)・財務健全・中期↑・短期↑・RSI適正(49)"
+    },
+    {
+      "ticker": "KO",
+      "market": "US",
+      "name": "Coca-Cola Co.",
+      "sector": "Consumer Defensive",
+      "current_price": 78.64,
+      "total_score": 56.0,
+      "breakdown": {
+        "fundamental": 19,
+        "technical": 13,
+        "news": 19,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "配当2.7%・売上+12%・ROE高(43%)",
+      "tech_comment": "中期↑・短期↑・RSI適正(46)・BB割安圏",
+      "rsi": 45.62761624266911,
+      "div_yield": 0.0268,
+      "pe": 22.574154,
+      "comment": "配当2.7%・売上+12%・ROE高(43%)・中期↑・短期↑・RSI適正(46)・BB割安圏"
+    },
+    {
+      "ticker": "USB",
+      "market": "US",
+      "name": "US Bancorp",
+      "sector": "Financial Services",
+      "current_price": 53.55,
+      "total_score": 56.0,
+      "breakdown": {
+        "fundamental": 23,
+        "technical": 13,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER大割安(11.2)"
+      ],
+      "fund_comment": "PER割安(9.5)・PBR低(1.4)・配当3.8%・ROE(12%)",
+      "tech_comment": "中期↑・短期↑・RSI適正(43)・BB割安圏",
+      "rsi": 42.75425258310037,
+      "div_yield": 0.037599999999999995,
+      "pe": 9.475629,
+      "comment": "PER割安(9.5)・PBR低(1.4)・配当3.8%・ROE(12%)・中期↑・短期↑・RSI適正(43)・BB割安圏"
+    },
+    {
+      "ticker": "MSFT",
+      "market": "US",
+      "name": "Microsoft Corp.",
+      "sector": "Technology",
+      "current_price": 460.52,
+      "total_score": 55.0,
+      "breakdown": {
+        "fundamental": 22,
+        "technical": 10,
+        "news": 18,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "売上+18%・利益+23%・ROE高(34%)・財務健全",
+      "tech_comment": "中期↑・短期↑・MACD↑・BB過熱",
+      "rsi": 73.32615595463173,
+      "div_yield": 0.008100000000000001,
+      "pe": 23.808857,
+      "comment": "売上+18%・利益+23%・ROE高(34%)・財務健全・中期↑・短期↑・MACD↑・BB過熱"
+    },
+    {
+      "ticker": "QCOM",
+      "market": "US",
+      "name": "Qualcomm Inc.",
+      "sector": "Technology",
+      "current_price": 228.99,
+      "total_score": 55.0,
+      "breakdown": {
+        "fundamental": 19,
+        "technical": 14,
+        "news": 17,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER適正(21.5)・売上減⚠・利益+173%・ROE高(36%)・財務健全",
+      "tech_comment": "中期↑・短期↑・RSI適正(59)・MACD↑",
+      "rsi": 59.412347127505946,
+      "div_yield": 0.0147,
+      "pe": 21.529366,
+      "comment": "PER適正(21.5)・売上減⚠・利益+173%・ROE高(36%)・財務健全・中期↑・短期↑・RSI適正(59)・MACD↑"
+    },
+    {
+      "ticker": "AXP",
+      "market": "US",
+      "name": "American Express",
+      "sector": "Financial Services",
+      "current_price": 313.54,
+      "total_score": 55.0,
+      "breakdown": {
+        "fundamental": 20,
+        "technical": 15,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 8,
+      "bargain_reasons": [
+        "52週下位(27%)"
+      ],
+      "fund_comment": "PER適正(15.6)・売上+12%・ROE高(34%)",
+      "tech_comment": "中期↑・RSI適正(49)・MACD↑・BB割安圏",
+      "rsi": 48.852115504441436,
+      "div_yield": 0.012,
+      "pe": 15.579844,
+      "comment": "PER適正(15.6)・売上+12%・ROE高(34%)・中期↑・RSI適正(49)・MACD↑・BB割安圏"
+    },
+    {
+      "ticker": "TGT",
+      "market": "US",
+      "name": "Target Corp.",
+      "sector": "Consumer Defensive",
+      "current_price": 123.71,
+      "total_score": 55.0,
+      "breakdown": {
+        "fundamental": 14,
+        "technical": 17,
+        "news": 19,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 10,
+      "bargain_reasons": [
+        "PER割安(16.3)"
+      ],
+      "fund_comment": "PER割安(13.9)・配当3.6%・利益減⚠・ROE高(22%)・流動性低⚠",
+      "tech_comment": "中期↑・短期↑・RSI適正(48)・MACD↑・BB割安圏",
+      "rsi": 48.15494611397796,
+      "div_yield": 0.0359,
+      "pe": 13.901562,
+      "comment": "PER割安(13.9)・配当3.6%・利益減⚠・ROE高(22%)・流動性低⚠・中期↑・短期↑・RSI適正(48)・MACD↑・BB割安圏"
+    },
+    {
+      "ticker": "7203.T",
+      "market": "JP",
+      "name": "トヨタ自動車",
+      "sector": "Consumer Cyclical",
+      "current_price": 2905.5,
+      "total_score": 55.0,
+      "breakdown": {
+        "fundamental": 26,
+        "technical": 9,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 38,
+      "bargain_reasons": [
+        "PER大割安(9.8)",
+        "PBR低(0.9)",
+        "52週下位(30%)"
+      ],
+      "fund_comment": "PER割安(9.0)・PBR<1(0.9)・配当3.4%・利益+23%・ROE(10%)",
+      "tech_comment": "短期↑・MACD↑・BB割安圏",
+      "rsi": 38.13454501317352,
+      "div_yield": 0.0344,
+      "pe": 8.961508,
+      "comment": "PER割安(9.0)・PBR<1(0.9)・配当3.4%・利益+23%・ROE(10%)・短期↑・MACD↑・BB割安圏"
+    },
+    {
+      "ticker": "5401.T",
+      "market": "JP",
+      "name": "日本製鉄",
+      "sector": "Basic Materials",
+      "current_price": 549.6,
+      "total_score": 55.0,
+      "breakdown": {
+        "fundamental": 26,
+        "technical": 9,
+        "news": 15,
+        "sector": 5,
+        "macro_penalty": 0.0
+      },
+      "is_bargain": false,
+      "bargain_score": 25,
+      "bargain_reasons": [
+        "PBR低(0.5)",
+        "52週安値圏(10%)"
+      ],
+      "fund_comment": "PER割安(1.0)・PBR<1(0.5)・高配当4.4%・売上+31%",
+      "tech_comment": "短期↑・MACD↑・BB割安圏",
+      "rsi": 39.523349503528905,
+      "div_yield": 0.0437,
+      "pe": 0.98498154,
+      "comment": "PER割安(1.0)・PBR<1(0.5)・高配当4.4%・売上+31%・短期↑・MACD↑・BB割安圏"
+    }
+  ],
+  "bargain_picks": [],
+  "candidate_count": 22,
+  "news": {
+    "article_count": 107,
+    "crisis_count": 14,
+    "sector_scores": {
+      "Technology": 17.1,
+      "General": 15.2,
+      "Energy": 18.6,
+      "Financials": 15.5,
+      "Consumer": 19.5,
+      "Macro": 18.8
+    },
+    "top_positive": [
+      [
+        "Consumer",
+        19.5
+      ],
+      [
+        "Macro",
+        18.8
+      ],
+      [
+        "Energy",
+        18.6
+      ]
+    ],
+    "top_negative": [],
+    "ticker_scores": {
+      "9984.T": 15.0,
+      "NVDA": 22.0,
+      "AAPL": 21.4,
+      "NFLX": 18.4,
+      "BRK-B": 15.0,
+      "GOOGL": 15.0,
+      "MSFT": 18.0,
+      "META": 21.3
+    }
+  }
+}
