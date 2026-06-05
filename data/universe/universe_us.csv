@@ -32,7 +32,6 @@ NKE,Nike Inc.,Consumer Discretionary,US
 ORCL,Oracle Corp.,Technology,US
 QCOM,Qualcomm Inc.,Technology,US
 AMD,Advanced Micro Devices,Technology,US
-INTC,Intel Corp.,Technology,US
 CSCO,Cisco Systems,Technology,US
 UNH,UnitedHealth Group,Healthcare,US
 CAT,Caterpillar Inc.,Industrials,US
@@ -40,7 +39,6 @@ GE,General Electric,Industrials,US
 BA,Boeing Co.,Industrials,US
 MMM,3M Co.,Industrials,US
 XOM,Exxon Mobil,Energy,US
-T,AT&T Inc.,Communication Services,US
 VZ,Verizon Communications,Communication Services,US
 PFE,Pfizer Inc.,Healthcare,US
 WFC,Wells Fargo,Financials,US
@@ -52,7 +50,6 @@ SPG,Simon Property Group,Real Estate,US
 AMT,American Tower,Real Estate,US
 NEE,NextEra Energy,Utilities,US
 SO,Southern Company,Utilities,US
-D,Dominion Energy,Utilities,US
 LIN,Linde plc,Materials,US
 APD,Air Products,Materials,US
 FCX,Freeport-McMoRan,Materials,US
@@ -61,3 +58,6 @@ MCD,McDonald's Corp.,Consumer Discretionary,US
 SBUX,Starbucks Corp.,Consumer Discretionary,US
 LOW,Lowe's Companies,Consumer Discretionary,US
 TGT,Target Corp.,Consumer Discretionary,US
+MSCI,MSCI Inc.,Financials,US
+MCO,Moody's Corp.,Financials,US
+ITW,Illinois Tool Works,Industrials,US
