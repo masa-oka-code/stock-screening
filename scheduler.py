@@ -33,6 +33,25 @@ logger = logging.getLogger(__name__)
 #         return yaml.safe_load(f)
 
 
+def cleanup_old_results(keep_days: int = 30):
+    """直近 keep_days 日分以外の結果JSONを削除する"""
+    import glob
+    results_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "results")
+    if not os.path.exists(results_dir):
+        return
+    files = sorted(glob.glob(os.path.join(results_dir, "*.json")), reverse=True)
+    if len(files) <= keep_days:
+        return
+    targets = files[keep_days:]
+    for path in targets:
+        try:
+            os.remove(path)
+            logger.info("古いデータを削除: " + os.path.basename(path))
+        except Exception as e:
+            logger.warning("削除失敗: " + os.path.basename(path) + " / " + str(e))
+    logger.info(f"クリーンアップ完了: {len(targets)}件削除、直近{keep_days}日分を保持")
+
+
 def run_daily_job():
     """毎日19時に実行されるメインジョブ"""
     logger.info("=" * 50)
@@ -57,6 +76,9 @@ def run_daily_job():
         logger.error("ジョブ実行エラー: " + str(e))
         import traceback
         logger.error(traceback.format_exc())
+
+    # 古いJSONを自動削除（直近30日分だけ保持）
+    cleanup_old_results(keep_days=30)
 
     logger.info("定時ジョブ完了")
 
