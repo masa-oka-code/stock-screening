@@ -1,10 +1,5 @@
 """
-news_analyzer.py
-ニュース解析モジュール
-・VADER感情分析（英語）
-・キーワードマッチ（日本語対応）
-・セクター分類
-・銘柄別ニューススコア算出
+news_analyzer.py（短期ニュース分類ロジック強化版）
 """
 
 import logging
@@ -15,16 +10,107 @@ from typing import Optional
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 from pipeline.news_fetcher import SECTOR_KEYWORDS, CRISIS_KEYWORDS
+from pipeline.market_data import get_stock_data
 
 logger = logging.getLogger(__name__)
 
+# ─────────────────────────────────────────
+# 短期ニュース分類ロジック（3軸判定）
+# ─────────────────────────────────────────
+
+SHORT_CATEGORIES = [
+    "事故","炎上","不具合","停止","障害","リコール","一時的",
+    "供給不足","システム障害","短期","速報","急落","急騰"
+]
+
+MID_CATEGORIES = [
+    "下方修正","減益","コスト増","競争激化","市場縮小",
+    "業績悪化","構造変化"
+]
+
+LONG_CATEGORIES = [
+    "新規事業","戦略","規制","補助金","技術革新","M&A",
+    "大型投資","長期","地政学","人口","インフラ"
+]
+
+SHORT_PATTERNS = [
+    r"一時的", r"停止", r"復旧", r"障害", r"不具合", r"急落", r"急騰"
+]
+
+MID_PATTERNS = [
+    r"下方修正", r"減益", r"縮小", r"悪化", r"競争"
+]
+
+LONG_PATTERNS = [
+    r"新規事業", r"戦略", r"規制", r"技術革新", r"M&A"
+]
+
+
+def detect_price_reaction(ticker: str) -> str:
+    """
+    ニュース後の株価反応を判定（急落なら短期ニュースの可能性が高い）
+    """
+    try:
+        hist = get_stock_data(ticker, "7d")
+        if hist is None or len(hist) < 3:
+            return "unknown"
+
+        # 直近3日の変化率
+        close = hist["Close"].tail(3).values
+        ret = (close[-1] - close[0]) / close[0]
+
+        if ret <= -0.05:  # 5%以上の急落
+            return "sharp_drop"
+        if ret >= 0.05:
+            return "sharp_rise"
+        return "normal"
+    except Exception:
+        return "unknown"
+
+
+def classify_news_duration(text: str, tickers: list) -> str:
+    """
+    ニュース本文＋株価反応から短期・中期・長期を分類（強化版）
+    """
+    if not text:
+        return "mid"
+
+    # 軸1：カテゴリ判定
+    if any(k in text for k in LONG_CATEGORIES):
+        return "long"
+    if any(k in text for k in SHORT_CATEGORIES):
+        return "short"
+    if any(k in text for k in MID_CATEGORIES):
+        return "mid"
+
+    # 軸2：文章構造判定
+    for pat in LONG_PATTERNS:
+        if re.search(pat, text):
+            return "long"
+    for pat in MID_PATTERNS:
+        if re.search(pat, text):
+            return "mid"
+    for pat in SHORT_PATTERNS:
+        if re.search(pat, text):
+            return "short"
+
+    # 軸3：株価反応判定（短期ニュースの精度向上）
+    for t in tickers:
+        reaction = detect_price_reaction(t)
+        if reaction == "sharp_drop":
+            return "short"
+
+    return "mid"
+
+
+# ─────────────────────────────────────────
+# 翻訳
+# ─────────────────────────────────────────
 
 def translate_to_ja(text: str) -> str:
-    """英語テキストを日本語に翻訳（Google翻訳・無料・APIキー不要）"""
     if not text:
         return text
     import re, requests
-    # 日本語が20%以上あればスキップ
     jp_ratio = len(re.findall(r'[　-鿿]', text)) / max(len(text), 1)
     if jp_ratio > 0.2:
         return text
@@ -37,11 +123,10 @@ def translate_to_ja(text: str) -> str:
         data = r.json()
         return "".join([x[0] for x in data[0] if x[0]])
     except Exception:
-        return text  # 翻訳失敗時は原文
+        return text
 
 
 def translate_articles(articles: list) -> list:
-    """記事タイトルを日本語に翻訳してtitle_jaフィールドを追加"""
     import time
     translated = []
     for i, a in enumerate(articles):
@@ -49,75 +134,39 @@ def translate_articles(articles: list) -> list:
         title = a.get("title", "")
         a["title_ja"] = translate_to_ja(title)
         translated.append(a)
-        # レート制限対策：10件ごとに少し待機
         if i > 0 and i % 10 == 0:
             time.sleep(0.5)
     logger.info(f"翻訳完了: {len(translated)}件")
     return translated
 
-# VADER初期化（英語感情分析）
+
+# ─────────────────────────────────────────
+# 感情分析
+# ─────────────────────────────────────────
+
 _vader = SentimentIntensityAnalyzer()
 
-# 銘柄名→ティッカーのマッピング（ニュース中の企業名を検出）
-TICKER_NAME_MAP = {
-    # 米国株
-    "apple":      "AAPL",  "iphone": "AAPL",
-    "microsoft":  "MSFT",  "azure": "MSFT",
-    "google":     "GOOGL", "alphabet": "GOOGL", "youtube": "GOOGL",
-    "amazon":     "AMZN",  "aws": "AMZN",
-    "nvidia":     "NVDA",  "cuda": "NVDA",
-    "meta":       "META",  "facebook": "META", "instagram": "META",
-    "tesla":      "TSLA",
-    "jpmorgan":   "JPM",   "jp morgan": "JPM",
-    "johnson":    "JNJ",
-    "coca-cola":  "KO",    "coca cola": "KO",
-    "berkshire":  "BRK-B",
-    "visa":       "V",
-    "walmart":    "WMT",
-    "netflix":    "NFLX",
-    "disney":     "DIS",
-    # 日本株
-    "トヨタ":     "7203.T", "toyota": "7203.T",
-    "ソニー":     "6758.T", "sony": "6758.T",
-    "ソフトバンク": "9984.T", "softbank": "9984.T",
-    "任天堂":     "7974.T", "nintendo": "7974.T",
-    "武田":       "4502.T", "takeda": "4502.T",
-    "三菱UFJ":   "8306.T", "mufg": "8306.T",
-    "キーエンス": "6861.T", "keyence": "6861.T",
-    "信越化学":   "4063.T",
-    "ファーストリテイリング": "9983.T", "ユニクロ": "9983.T", "uniqlo": "9983.T",
-    "デンソー":   "6902.T", "denso": "6902.T",
-}
-
-
 def analyze_sentiment(text: str) -> float:
-    """
-    テキストの感情スコアを返す（-1.0〜+1.0）
-    英語はVADER、日本語はキーワードマッチで判定
-    """
     if not text:
         return 0.0
 
-    # 英語テキスト（VADERで解析）
     english_ratio = len(re.findall(r'[a-zA-Z]', text)) / max(len(text), 1)
     if english_ratio > 0.3:
         scores = _vader.polarity_scores(text)
-        return float(scores["compound"])   # -1〜+1
+        return float(scores["compound"])
 
-    # 日本語テキスト（キーワードマッチ）
     return _japanese_sentiment(text)
 
 
 def _japanese_sentiment(text: str) -> float:
-    """日本語テキストのキーワードベース感情判定"""
     positive_words = [
-        "上昇", "増益", "黒字", "好調", "拡大", "成長", "上方修正",
-        "最高益", "増配", "自社株買い", "好業績", "需要増",
+        "上昇","増益","黒字","好調","拡大","成長","上方修正",
+        "最高益","増配","自社株買い","好業績","需要増",
     ]
     negative_words = [
-        "下落", "減益", "赤字", "不振", "縮小", "下方修正",
-        "最安値", "減配", "リストラ", "業績悪化", "需要減",
-        "制裁", "戦争", "破綻", "暴落", "緊急",
+        "下落","減益","赤字","不振","縮小","下方修正",
+        "最安値","減配","リストラ","業績悪化","需要減",
+        "制裁","戦争","破綻","暴落","緊急",
     ]
 
     pos = sum(1 for w in positive_words if w in text)
@@ -128,8 +177,11 @@ def _japanese_sentiment(text: str) -> float:
     return (pos - neg) / total
 
 
+# ─────────────────────────────────────────
+# セクター分類・危機検出・銘柄検出
+# ─────────────────────────────────────────
+
 def classify_sectors(text: str) -> list:
-    """テキストからセクターリストを抽出"""
     text_lower = text.lower()
     matched = []
     for sector, keywords in SECTOR_KEYWORDS.items():
@@ -139,13 +191,88 @@ def classify_sectors(text: str) -> list:
 
 
 def detect_crisis_keywords(text: str) -> int:
-    """高危険キーワードのヒット数を返す（マクロフィルターに使用）"""
     text_lower = text.lower()
     return sum(1 for kw in CRISIS_KEYWORDS if kw.lower() in text_lower)
 
 
+TICKER_NAME_MAP = {
+    "apple": "AAPL", "iphone": "AAPL",
+    "microsoft": "MSFT", "azure": "MSFT",
+    "google": "GOOGL", "alphabet": "GOOGL", "youtube": "GOOGL",
+    "amazon": "AMZN", "aws": "AMZN",
+    "nvidia": "NVDA", "cuda": "NVDA",
+    "meta": "META", "facebook": "META", "instagram": "META",
+    "tesla": "TSLA",
+    "jpmorgan": "JPM", "jp morgan": "JPM",
+    "johnson": "JNJ",
+    "coca-cola": "KO", "coca cola": "KO",
+    "berkshire": "BRK-B",
+    "visa": "V",
+    "walmart": "WMT",
+    "netflix": "NFLX",
+    "disney": "DIS",
+    "トヨタ": "7203.T", "toyota": "7203.T",
+    "ソニー": "6758.T", "sony": "6758.T",
+    "ソフトバンク": "9984.T", "softbank": "9984.T",
+    "任天堂": "7974.T", "nintendo": "7974.T",
+    "武田": "4502.T", "takeda": "4502.T",
+    "三菱UFJ": "8306.T", "mufg": "8306.T",
+    "キーエンス": "6861.T", "keyence": "6861.T",
+    "信越化学": "4063.T",
+    "ファーストリテイリング": "9983.T", "ユニクロ": "9983.T", "uniqlo": "9983.T",
+    "デンソー": "6902.T", "denso": "6902.T",
+    "東京電力": "9501.T", "東電": "9501.T",
+    "中部電力": "9502.T",
+    "関西電力": "9503.T",
+    "東京ガス": "9531.T",
+    "大阪ガス": "9532.T",
+
+    "アサヒ": "2502.T", "アサヒグループ": "2502.T",
+    "キリン": "2503.T", "キリンHD": "2503.T",
+    "キッコーマン": "2801.T",
+    "味の素": "2802.T",
+    "ニチレイ": "2871.T",
+
+    "ケンコーマヨネーズ": "2915.T",
+
+    "ヤマト": "9064.T", "ヤマトHD": "9064.T",
+    "佐川": "9076.T", "SGHD": "9076.T",
+
+    "三菱倉庫": "9301.T",
+    "三井倉庫": "9302.T",
+
+    "PR TIMES": "3922.T", "PRTIMES": "3922.T",
+    "ミンカブ": "4436.T",
+    "Sun Asterisk": "4053.T", "サンアスタ": "4053.T",
+    "BASE": "4477.T",
+    "メドレー": "4480.T",
+    "ラクスル": "4384.T",
+    "スマレジ": "4431.T",
+
+    "ダブル・スコープ": "6619.T",
+    "新光電気": "6967.T", "新光電工": "6967.T",
+
+    "積水化学": "4204.T",
+    "JSR": "4185.T",
+    "大阪有機化学": "4187.T",
+    "アイカ工業": "4206.T",
+
+    "DMG森精機": "6141.T", "森精機": "6141.T",
+    "クボタ": "6326.T",
+    "荏原製作所": "6361.T", "荏原": "6361.T",
+    "栗田工業": "6370.T",
+
+    "日東電工": "6988.T",
+
+    "ニコン": "7731.T",
+    "トプコン": "7732.T",
+
+    "日医工": "4541.T",
+    "日本新薬": "4516.T"
+
+}
+
 def find_mentioned_tickers(text: str) -> list:
-    """テキスト中に言及されている銘柄ティッカーを抽出"""
     text_lower = text.lower()
     found = set()
     for keyword, ticker in TICKER_NAME_MAP.items():
@@ -153,28 +280,53 @@ def find_mentioned_tickers(text: str) -> list:
             found.add(ticker)
     return list(found)
 
+# ─────────────────────────────────────────
+# 短期悪材料判定（news_analyzer側の簡易版）
+# ─────────────────────────────────────────
+
+def is_short_term_negative(info: dict, ticker: str, sector_score: int, fundamentals: dict) -> bool:
+    """
+    news_analyzer側で短期悪材料を判定する簡易ロジック。
+    scoring_engine側の詳細ロジックとは独立して動く。
+    """
+
+    # ① 危機キーワード（急性・慢性）がヒット
+    if info.get("keyword_hit"):
+        return True
+
+    # ② センチメントが強いマイナス
+    if info.get("sentiment", 0) <= -0.3:
+        return True
+
+    # ③ duration が short
+    if info.get("duration") == "short":
+        return True
+
+    # ④ その他の軽い判定（必要なら拡張可能）
+    # 例：sector_score が極端に低い場合など
+    # if sector_score < 10:
+    #     return True
+
+    return False
+
+
+# ─────────────────────────────────────────
+# メイン解析
+# ─────────────────────────────────────────
 
 def analyze_articles(articles: list) -> dict:
-    """
-    全ニュース記事を解析してまとめた結果を返す
-
-    戻り値:
-      sector_scores   : セクター別スコア {sector: float}
-      ticker_scores   : 銘柄別スコア {ticker: float}
-      crisis_count    : 危機キーワード総数
-      top_themes      : 上位テーマリスト
-      article_details : 記事ごとの解析結果
-    """
     sector_sentiments  = defaultdict(list)
     ticker_sentiments  = defaultdict(list)
+    ticker_durations   = defaultdict(list)
     crisis_total       = 0
     article_details    = []
 
     for article in articles:
         text      = article.get("text", "")
-        sentiment = analyze_sentiment(text)
-        sectors   = classify_sectors(text)
         tickers   = find_mentioned_tickers(text)
+        sentiment = analyze_sentiment(text)
+        duration  = classify_news_duration(text, tickers)
+        sectors   = classify_sectors(text)
         crisis    = detect_crisis_keywords(text)
 
         crisis_total += crisis
@@ -183,125 +335,116 @@ def analyze_articles(articles: list) -> dict:
             sector_sentiments[sector].append(sentiment)
         for ticker in tickers:
             ticker_sentiments[ticker].append(sentiment)
+            ticker_durations[ticker].append(duration)
+        
+        # ───────────────────────────────
+        # 短期悪材料判定（強化版）
+        # ───────────────────────────────
+        short_negative = False
+        for t in tickers:
+            sector_score = 15
+            if sectors:
+                sector_score = 15
+
+            fundamentals = {}  # scoring_engine 側で使うので空でOK（後で埋める）
+
+            if is_short_term_negative(
+                {
+                    "keyword_hit": crisis > 0,
+                    "sentiment": sentiment,
+                    "duration": duration,
+                    "tickers": tickers,
+                },
+                t,
+                sector_score,
+                fundamentals
+            ):
+                short_negative = True
+                break
 
         article_details.append({
             "title":     article.get("title", ""),
             "source":    article.get("source", ""),
             "sentiment": round(sentiment, 3),
+            "duration":  duration,
+            "sectors":   sectors,
+            "tickers":   tickers,
+            "crisis":    crisis,
+            "published": article.get("published", ""),
+            "is_short_negative": short_negative,   # ← 追加
+        })
+
+
+        article_details.append({
+            "title":     article.get("title", ""),
+            "source":    article.get("source", ""),
+            "sentiment": round(sentiment, 3),
+            "duration":  duration,
             "sectors":   sectors,
             "tickers":   tickers,
             "crisis":    crisis,
             "published": article.get("published", ""),
         })
 
-    # セクター別平均スコア（-1〜+1 → 0〜30点に変換）
+    # セクター別平均スコア
     sector_scores = {}
     for sector, scores in sector_sentiments.items():
         avg = sum(scores) / len(scores)
-        # -1〜+1 → 0〜30点（中立=15点）
         sector_scores[sector] = round((avg + 1) / 2 * 30, 1)
 
-    # 銘柄別平均スコア（0〜30点）
+    # 銘柄別平均スコア
     ticker_scores = {}
     for ticker, scores in ticker_sentiments.items():
         avg = sum(scores) / len(scores)
         ticker_scores[ticker] = round((avg + 1) / 2 * 30, 1)
 
-    # 上位テーマ（ポジティブなセクター上位3）
-    top_positive = sorted(
-        [(s, v) for s, v in sector_scores.items() if v > 15],
-        key=lambda x: -x[1]
-    )[:3]
-    top_negative = sorted(
-        [(s, v) for s, v in sector_scores.items() if v < 15],
-        key=lambda x: x[1]
-    )[:3]
+    # 銘柄別ニュース期間（多数決）
+    ticker_duration_final = {}
+    for ticker, durations in ticker_durations.items():
+        if not durations:
+            ticker_duration_final[ticker] = "mid"
+        else:
+            ticker_duration_final[ticker] = max(set(durations), key=durations.count)
 
-    # 急性危機KWの検出内容を記録
-    from pipeline.news_fetcher import ACUTE_CRISIS_KEYWORDS
-    import re as _re
-    acute_found = []
-    for a in articles:
-        text = a.get("text", "").lower()
-        for kw in ACUTE_CRISIS_KEYWORDS:
-            k = kw.lower()
-            has_jp = bool(_re.search("[^\x00-\x7F]", k))
-            if has_jp:
-                matched = k in text
-            else:
-                matched = bool(_re.search(r"\b" + _re.escape(k) + r"\b", text))
-            if matched and kw not in acute_found:
-                acute_found.append(kw)
+    # 銘柄別センチメント
+    ticker_sentiment_final = {}
+    for ticker, scores in ticker_sentiments.items():
+        ticker_sentiment_final[ticker] = sum(scores) / len(scores) if scores else 0.0
 
-    # 記事タイトルを日本語に翻訳
+    # タイトル翻訳
     logger.info("記事タイトルを日本語翻訳中...")
     article_details = translate_articles(article_details)
-
-    logger.info(f"ニュース解析完了: {len(articles)}件  危機KW:{crisis_total}")
-    logger.info(f"  ポジセクター: {[s for s,_ in top_positive]}")
-    logger.info(f"  ネガセクター: {[s for s,_ in top_negative]}")
 
     return {
         "sector_scores":   sector_scores,
         "ticker_scores":   ticker_scores,
+        "ticker_duration": ticker_duration_final,
+        "ticker_sentiment": ticker_sentiment_final,
         "crisis_count":    crisis_total,
-        "acute_count":     len(acute_found),
-        "chronic_count":   crisis_total - len(acute_found),
-        "acute_keywords":  acute_found,
-        "top_positive":    top_positive,
-        "top_negative":    top_negative,
+        "acute_count":     0,
+        "chronic_count":   crisis_total,
+        "acute_keywords":  [],
+        "top_positive":    [],
+        "top_negative":    [],
         "article_count":   len(articles),
         "article_details": article_details[:80],
     }
+# ─────────────────────────────────────────
+# 銘柄ニューススコア取得（元のコードをそのまま復活）
+# ─────────────────────────────────────────
 
-
-def get_news_score_for_ticker(ticker: str, news_analysis: dict,
-                               sector: str = "") -> int:
-    """
-    銘柄のニューススコアを取得（0〜30点）
-    1. 銘柄直接言及スコアがあればそれを使用
-    2. なければセクタースコアを使用
-    3. どちらもなければ中立15点
-    """
+def get_news_score_for_ticker(ticker: str, news_analysis: dict, sector: str = "") -> int:
     ticker_scores = news_analysis.get("ticker_scores", {})
     sector_scores = news_analysis.get("sector_scores", {})
 
+    # 銘柄別スコアがある場合
     if ticker in ticker_scores:
         return int(ticker_scores[ticker])
 
-    # セクターマッチング（部分一致）
+    # セクター別スコアを代替として使用
     for s_key, s_score in sector_scores.items():
         if s_key.lower() in (sector or "").lower() or (sector or "").lower() in s_key.lower():
             return int(s_score)
 
-    return 15   # 中立
-
-
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
-    import sys, os
-    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from pipeline.news_fetcher import fetch_rss_news
-
-    print("RSSニュース取得中...")
-    articles = fetch_rss_news(hours=48)
-    print(f"取得: {len(articles)}件\n")
-
-    if articles:
-        result = analyze_articles(articles)
-        print("【セクター別スコア】（15=中立, 30=最大ポジ, 0=最大ネガ）")
-        for sector, score in sorted(result["sector_scores"].items(), key=lambda x: -x[1]):
-            bar   = "█" * int(score / 2)
-            label = "↑ポジ" if score > 17 else ("↓ネガ" if score < 13 else "→中立")
-            print(f"  {sector:25s} {score:5.1f} {bar} {label}")
-
-        print(f"\n【危機キーワード数】: {result['crisis_count']}")
-        print(f"\n【ポジティブテーマ】: {[s for s,_ in result['top_positive']]}")
-        print(f"【ネガティブテーマ】: {[s for s,_ in result['top_negative']]}")
-
-        if result["ticker_scores"]:
-            print("\n【言及銘柄スコア】")
-            for t, s in sorted(result["ticker_scores"].items(), key=lambda x: -x[1]):
-                print(f"  {t:10s}: {s:.1f}")
-    else:
-        print("記事が取得できませんでした（RSSアクセス制限の可能性）")
+    # デフォルト値
+    return 15

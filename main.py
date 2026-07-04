@@ -247,6 +247,38 @@ else:
 
 st.divider()
 
+# ───────────────────────────────
+# ウォッチ銘柄（短期悪材料・反転待ち）
+# ───────────────────────────────
+watch_list = [c for c in candidates if c.get("status") == "watch"]
+
+st.markdown('<p class="section-title">ウォッチ銘柄（反転待ち）</p>', unsafe_allow_html=True)
+
+if watch_list:
+    for w in watch_list:
+        ticker = w.get("ticker", "")
+        price  = w.get("current_price", 0)
+        reason = w.get("reason", "")
+        rsi    = w.get("rsi")
+        ma20   = w.get("ma20")
+        sent   = w.get("sentiment")
+        dur    = w.get("duration")
+
+        st.markdown(f"""
+<div style="padding:12px 16px; border:1px solid #e2e8f0; border-left:3px solid #f59e0b; border-radius:4px; margin-bottom:10px;">
+  <div style="font-size:18px; font-weight:600; font-family:'IBM Plex Mono';">{ticker}</div>
+  <div style="font-size:13px; color:#475569;">現在値: {price}</div>
+  <div style="margin-top:6px; font-size:13px; color:#334155;">理由: {reason}</div>
+  <div style="margin-top:6px; font-size:12px; color:#64748b;">
+    RSI: {rsi} / MA20: {ma20}<br>
+    センチメント: {sent:+.2f} / 期間: {dur}
+  </div>
+</div>
+""", unsafe_allow_html=True)
+else:
+    st.info("ウォッチ銘柄はありません。")
+
+
 # 4. 候補銘柄
 def price_ok(c):
     mkt   = c.get("market","")
