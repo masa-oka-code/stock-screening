@@ -1,0 +1,2525 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T11:51:15.824734",
+  "macro": {
+    "vix": 18.290000915527344,
+    "sp500_30d": 0.004065030292374713,
+    "nk225_30d": 0.032861697585578165,
+    "usdjpy": 162.4770050048828,
+    "risk_level": "LOW",
+    "macro_score": -10,
+    "macro_timing": 22,
+    "bargain_mode": false,
+    "suspend": false,
+    "reasons": [
+      "日経225 デッドクロス"
+    ]
+  },
+  "candidates": [
+    {
+      "ticker": "6902.T",
+      "market": "JP",
+      "name": "デンソー",
+      "sector": "Consumer Cyclical",
+      "current_price": 1945.0,
+      "total_score": 69.7,
+      "total_score_dividend": 49.1,
+      "total_score_growth": 48.0,
+      "judgment": "候補",
+      "quality_score": 65.5,
+      "timing_score": 76.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 48,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 65.5
+        },
+        "timing": {
+          "valuation": 40,
+          "macro": 22,
+          "technical": 14.0,
+          "total": 76.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 38,
+      "bargain_reasons": [
+        "PER大割安(7.5)",
+        "PBR低(1.0)",
+        "52週下位(25%)"
+      ],
+      "fund_comment": "PER割安(10.1)・PBR<1(1.0)・配当3.7%・利益+69%・財務健全・連続増配8年",
+      "timing_comment": "52週下位(25%)・PER大幅割安・配当落ち82日前",
+      "tech_comment": "中期↑・短期↑・RSI適正(56)・MACD↑",
+      "rsi": 55.71238482097754,
+      "div_yield": 0.0373,
+      "pe": 10.087128,
+      "pbr": 0.9532351,
+      "consecutive_div": 8,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(10.1)・PBR<1(1.0)・配当3.7%・利益+69%・財務健全・連続増配8年"
+    },
+    {
+      "ticker": "4516.T",
+      "market": "JP",
+      "name": "日本新薬",
+      "sector": "Healthcare",
+      "current_price": 4084.0,
+      "total_score": 66.9,
+      "total_score_dividend": 47.1,
+      "total_score_growth": 46.1,
+      "judgment": "候補",
+      "quality_score": 63.5,
+      "timing_score": 72.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 46,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 63.5
+        },
+        "timing": {
+          "valuation": 40,
+          "macro": 22,
+          "technical": 10.0,
+          "total": 72.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 38,
+      "bargain_reasons": [
+        "PER大割安(9.3)",
+        "PBR低(0.9)",
+        "52週下位(31%)"
+      ],
+      "fund_comment": "PER割安(9.9)・PBR<1(0.9)・配当3.0%・売上+12%・粗利率高(66%)・ROE(11%)・財務健全・増配3年",
+      "timing_comment": "52週下位(31%)・PER大幅割安・配当落ち82日前",
+      "tech_comment": "短期↑・RSI適正(49)・MACD↑",
+      "rsi": 48.514200467109816,
+      "div_yield": 0.0301,
+      "pe": 9.946662,
+      "pbr": 0.94414145,
+      "consecutive_div": 3,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(9.9)・PBR<1(0.9)・配当3.0%・売上+12%・粗利率高(66%)・ROE(11%)・財務健全・増配3年"
+    },
+    {
+      "ticker": "7203.T",
+      "market": "JP",
+      "name": "トヨタ自動車",
+      "sector": "Consumer Cyclical",
+      "current_price": 2889.0,
+      "total_score": 65.7,
+      "total_score_dividend": 46.2,
+      "total_score_growth": 45.1,
+      "judgment": "候補",
+      "quality_score": 61.5,
+      "timing_score": 72.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 44,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 61.5
+        },
+        "timing": {
+          "valuation": 40,
+          "macro": 22,
+          "technical": 10.0,
+          "total": 72.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 38,
+      "bargain_reasons": [
+        "PER大割安(9.8)",
+        "PBR低(0.9)",
+        "52週下位(28%)"
+      ],
+      "fund_comment": "PER割安(8.9)・PBR<1(0.9)・配当3.4%・利益+23%・ROE(10%)・連続増配9年",
+      "timing_comment": "52週下位(28%)・PER大幅割安・配当落ち82日前",
+      "tech_comment": "短期↑・RSI適正(54)・MACD↑",
+      "rsi": 54.44013755055934,
+      "div_yield": 0.0339,
+      "pe": 8.910616,
+      "pbr": 0.94324964,
+      "consecutive_div": 9,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(8.9)・PBR<1(0.9)・配当3.4%・利益+23%・ROE(10%)・連続増配9年"
+    },
+    {
+      "ticker": "NEM",
+      "market": "US",
+      "name": "Newmont Corp.",
+      "sector": "Basic Materials",
+      "current_price": 95.06,
+      "total_score": 63.9,
+      "total_score_dividend": 45.2,
+      "total_score_growth": 44.9,
+      "judgment": "候補",
+      "quality_score": 64.5,
+      "timing_score": 63.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 47,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 64.5
+        },
+        "timing": {
+          "valuation": 30,
+          "macro": 22,
+          "technical": 11.0,
+          "total": 63.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER大割安(12.7)"
+      ],
+      "fund_comment": "PER割安(8.6)・売上+46%・利益+79%・粗利率高(67%)・ROE高(26%)・財務健全・増配7年",
+      "timing_comment": "PER大幅割安",
+      "tech_comment": "RSI適正(42)・MACD↑・BB割安圏",
+      "rsi": 41.68422922795139,
+      "div_yield": 0.0109,
+      "pe": 8.576767,
+      "pbr": 2.9204302,
+      "consecutive_div": 7,
+      "ex_div_date": "2026-05-27 00:00:00+00:00",
+      "comment": "PER割安(8.6)・売上+46%・利益+79%・粗利率高(67%)・ROE高(26%)・財務健全・増配7年"
+    },
+    {
+      "ticker": "3659.T",
+      "market": "JP",
+      "name": "ネクソン",
+      "sector": "Communication Services",
+      "current_price": 2295.5,
+      "total_score": 63.9,
+      "total_score_dividend": 45.6,
+      "total_score_growth": 44.9,
+      "judgment": "候補",
+      "quality_score": 64.5,
+      "timing_score": 63.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 47,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 64.5
+        },
+        "timing": {
+          "valuation": 31,
+          "macro": 22,
+          "technical": 10.0,
+          "total": 63.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(8%)"
+      ],
+      "fund_comment": "PER適正(13.7)・PBR低(1.7)・売上+34%・利益+125%・粗利率高(60%)・ROE(12%)・財務健全・増配3年",
+      "timing_comment": "52週安値圏(8%)",
+      "tech_comment": "短期↑・RSI適正(56)・MACD↑・BB過熱",
+      "rsi": 56.363115472609294,
+      "div_yield": 0.025699999999999997,
+      "pe": 13.724142,
+      "pbr": 1.7116699,
+      "consecutive_div": 3,
+      "ex_div_date": "2026-12-29 00:00:00+00:00",
+      "comment": "PER適正(13.7)・PBR低(1.7)・売上+34%・利益+125%・粗利率高(60%)・ROE(12%)・財務健全・増配3年"
+    },
+    {
+      "ticker": "5108.T",
+      "market": "JP",
+      "name": "ブリヂストン",
+      "sector": "Consumer Cyclical",
+      "current_price": 3616.0,
+      "total_score": 62.5,
+      "total_score_dividend": 45.0,
+      "total_score_growth": 44.0,
+      "judgment": "候補",
+      "quality_score": 63.5,
+      "timing_score": 61.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 46,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 63.5
+        },
+        "timing": {
+          "valuation": 25,
+          "macro": 22,
+          "technical": 14.0,
+          "total": 61.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER割安(6.5)・PBR低(1.2)・配当3.6%・利益+30%・財務健全・連続増配7年",
+      "timing_comment": "PER大幅割安",
+      "tech_comment": "中期↑・短期↑・RSI適正(68)・MACD↑・BB過熱",
+      "rsi": 68.44381818786684,
+      "div_yield": 0.035699999999999996,
+      "pe": 6.4700828,
+      "pbr": 1.2407207,
+      "consecutive_div": 7,
+      "ex_div_date": "2026-12-29 00:00:00+00:00",
+      "comment": "PER割安(6.5)・PBR低(1.2)・配当3.6%・利益+30%・財務健全・連続増配7年"
+    },
+    {
+      "ticker": "NVDA",
+      "market": "US",
+      "name": "NVIDIA Corp.",
+      "sector": "Technology",
+      "current_price": 196.93,
+      "total_score": 61.5,
+      "total_score_dividend": 44.2,
+      "total_score_growth": 44.0,
+      "judgment": "候補",
+      "quality_score": 66.5,
+      "timing_score": 54.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 44,
+          "news": 12.5,
+          "sector": 10.0,
+          "total": 66.5
+        },
+        "timing": {
+          "valuation": 25,
+          "macro": 22,
+          "technical": 7.0,
+          "total": 54.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER適正(15.4)・売上+85%・利益+214%・粗利率高(74%)・ROE高(114%)・財務健全・連続増配13年",
+      "timing_comment": "PER割安",
+      "tech_comment": "RSI適正(44)・BB割安圏",
+      "rsi": 43.526574099467865,
+      "div_yield": 0.0051,
+      "pe": 15.428029,
+      "pbr": 24.402725,
+      "consecutive_div": 13,
+      "ex_div_date": "2026-06-04 00:00:00+00:00",
+      "comment": "PER適正(15.4)・売上+85%・利益+214%・粗利率高(74%)・ROE高(114%)・財務健全・連続増配13年"
+    },
+    {
+      "ticker": "META",
+      "market": "US",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "current_price": 615.58,
+      "total_score": 61.1,
+      "total_score_dividend": 42.8,
+      "total_score_growth": 42.6,
+      "judgment": "候補",
+      "quality_score": 60.5,
+      "timing_score": 62.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 41,
+          "news": 9.5,
+          "sector": 10.0,
+          "total": 60.5
+        },
+        "timing": {
+          "valuation": 30,
+          "macro": 22,
+          "technical": 10.0,
+          "total": 62.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 8,
+      "bargain_reasons": [
+        "52週下位(35%)"
+      ],
+      "fund_comment": "PER適正(16.7)・売上+33%・利益+62%・粗利率高(82%)・ROE高(33%)・財務健全",
+      "timing_comment": "52週下位(35%)・PER割安",
+      "tech_comment": "短期↑・RSI適正(57)・MACD↑・BB過熱",
+      "rsi": 57.47614983877042,
+      "div_yield": 0.0034000000000000002,
+      "pe": 16.715145,
+      "pbr": 6.4114237,
+      "consecutive_div": 1,
+      "ex_div_date": "2026-06-15 00:00:00+00:00",
+      "comment": "PER適正(16.7)・売上+33%・利益+62%・粗利率高(82%)・ROE高(33%)・財務健全"
+    },
+    {
+      "ticker": "AVGO",
+      "market": "US",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "current_price": 370.78,
+      "total_score": 57.5,
+      "total_score_dividend": 41.5,
+      "total_score_growth": 41.2,
+      "judgment": "候補",
+      "quality_score": 62.5,
+      "timing_score": 50.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 44,
+          "news": 8.5,
+          "sector": 10.0,
+          "total": 62.5
+        },
+        "timing": {
+          "valuation": 21,
+          "macro": 22,
+          "technical": 7.0,
+          "total": 50.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER適正(19.1)・売上+48%・利益+85%・粗利率高(76%)・ROE高(37%)・財務健全・連続増配15年",
+      "timing_comment": "",
+      "tech_comment": "RSI適正(44)・BB割安圏",
+      "rsi": 43.8848142957582,
+      "div_yield": 0.006999999999999999,
+      "pe": 19.11653,
+      "pbr": 20.118284,
+      "consecutive_div": 15,
+      "ex_div_date": "2026-06-22 00:00:00+00:00",
+      "comment": "PER適正(19.1)・売上+48%・利益+85%・粗利率高(76%)・ROE高(37%)・財務健全・連続増配15年"
+    },
+    {
+      "ticker": "5401.T",
+      "market": "JP",
+      "name": "日本製鉄",
+      "sector": "Basic Materials",
+      "current_price": 556.0,
+      "total_score": 67.3,
+      "total_score_dividend": 46.4,
+      "total_score_growth": 45.2,
+      "judgment": "参考",
+      "quality_score": 57.5,
+      "timing_score": 82.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 40,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 57.5
+        },
+        "timing": {
+          "valuation": 45,
+          "macro": 22,
+          "technical": 15.0,
+          "total": 82.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 25,
+      "bargain_reasons": [
+        "PBR低(0.5)",
+        "52週安値圏(15%)"
+      ],
+      "fund_comment": "PER割安(1.0)・PBR<1(0.5)・配当4.3%・売上+31%・連続増配6年",
+      "timing_comment": "52週安値圏(15%)・PER大幅割安・配当落ち82日前",
+      "tech_comment": "短期↑・GC・RSI適正(52)・MACD↑・BB割安圏",
+      "rsi": 52.322140067194816,
+      "div_yield": 0.042800000000000005,
+      "pe": 0.9964515,
+      "pbr": 0.525422,
+      "consecutive_div": 6,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(1.0)・PBR<1(0.5)・配当4.3%・売上+31%・連続増配6年"
+    },
+    {
+      "ticker": "8473.T",
+      "market": "JP",
+      "name": "SBIホールディングス",
+      "sector": "Financial Services",
+      "current_price": 2722.0,
+      "total_score": 62.3,
+      "total_score_dividend": 43.5,
+      "total_score_growth": 42.5,
+      "judgment": "参考",
+      "quality_score": 56.5,
+      "timing_score": 71.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 39,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 56.5
+        },
+        "timing": {
+          "valuation": 38,
+          "macro": 22,
+          "technical": 11.0,
+          "total": 71.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 45,
+      "bargain_reasons": [
+        "PER大割安(4.4)",
+        "PBR低(1.0)",
+        "52週安値圏(17%)"
+      ],
+      "fund_comment": "PER割安(6.7)・PBR<1(1.0)・配当3.5%・売上減⚠・利益+21%・粗利率高(55%)・ROE高(21%)・高負債⚠",
+      "timing_comment": "52週安値圏(17%)・PER大幅割安",
+      "tech_comment": "RSI適正(43)・MACD↑・BB割安圏",
+      "rsi": 42.98315032618822,
+      "div_yield": 0.0347,
+      "pe": 6.6897683,
+      "pbr": 0.98019797,
+      "consecutive_div": 1,
+      "ex_div_date": "2026-03-30 00:00:00+00:00",
+      "comment": "PER割安(6.7)・PBR<1(1.0)・配当3.5%・売上減⚠・利益+21%・粗利率高(55%)・ROE高(21%)・高負債⚠"
+    },
+    {
+      "ticker": "PFE",
+      "market": "US",
+      "name": "Pfizer Inc.",
+      "sector": "Healthcare",
+      "current_price": 24.07,
+      "total_score": 61.4,
+      "total_score_dividend": 44.6,
+      "total_score_growth": 42.5,
+      "judgment": "参考",
+      "quality_score": 59.0,
+      "timing_score": 65.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 34,
+          "news": 11.0,
+          "sector": 14.0,
+          "total": 59.0
+        },
+        "timing": {
+          "valuation": 40,
+          "macro": 22,
+          "technical": 3.0,
+          "total": 65.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 25,
+      "bargain_reasons": [
+        "PER割安(18.4)",
+        "52週安値圏(17%)"
+      ],
+      "fund_comment": "PER割安(8.5)・PBR低(1.5)・高配当7.2%・利益減⚠・粗利率高(75%)・財務健全・連続増配36年",
+      "timing_comment": "52週安値圏(17%)・PER大幅割安・配当落ち直前(15日)",
+      "tech_comment": "BB割安圏",
+      "rsi": 39.745905659503876,
+      "div_yield": 0.07150000000000001,
+      "pe": 8.501725,
+      "pbr": 1.5224541,
+      "consecutive_div": 36,
+      "ex_div_date": "2026-07-24 00:00:00+00:00",
+      "comment": "PER割安(8.5)・PBR低(1.5)・高配当7.2%・利益減⚠・粗利率高(75%)・財務健全・連続増配36年"
+    },
+    {
+      "ticker": "9302.T",
+      "market": "JP",
+      "name": "三井倉庫HD",
+      "sector": "Industrials",
+      "current_price": 3492.0,
+      "total_score": 60.9,
+      "total_score_dividend": 42.0,
+      "total_score_growth": 41.5,
+      "judgment": "参考",
+      "quality_score": 55.5,
+      "timing_score": 69.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 38,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 55.5
+        },
+        "timing": {
+          "valuation": 40,
+          "macro": 22,
+          "technical": 7.0,
+          "total": 69.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(16%)"
+      ],
+      "fund_comment": "PER割安(8.0)・PBR低(1.9)・利益+92%・ROE(10%)・財務健全・連続増配15年",
+      "timing_comment": "52週安値圏(16%)・PER大幅割安",
+      "tech_comment": "MACD↑・BB割安圏",
+      "rsi": 36.72489604041211,
+      "div_yield": 0.0141,
+      "pe": 7.9798903,
+      "pbr": 1.8879083,
+      "consecutive_div": 15,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(8.0)・PBR低(1.9)・利益+92%・ROE(10%)・財務健全・連続増配15年"
+    },
+    {
+      "ticker": "9022.T",
+      "market": "JP",
+      "name": "東海旅客鉄道",
+      "sector": "Industrials",
+      "current_price": 3664.0,
+      "total_score": 60.7,
+      "total_score_dividend": 41.9,
+      "total_score_growth": 41.6,
+      "judgment": "参考",
+      "quality_score": 56.5,
+      "timing_score": 67.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 39,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 56.5
+        },
+        "timing": {
+          "valuation": 35,
+          "macro": 22,
+          "technical": 10.0,
+          "total": 67.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 38,
+      "bargain_reasons": [
+        "PER大割安(6.4)",
+        "PBR低(0.7)",
+        "52週下位(28%)"
+      ],
+      "fund_comment": "PER割安(8.6)・PBR<1(0.7)・粗利率高(52%)・ROE(11%)・連続増配18年",
+      "timing_comment": "52週下位(28%)・PER大幅割安",
+      "tech_comment": "短期↑・RSI適正(63)・MACD↑・BB過熱",
+      "rsi": 62.63179311320481,
+      "div_yield": 0.0086,
+      "pe": 8.630924,
+      "pbr": 0.6905368,
+      "consecutive_div": 18,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(8.6)・PBR<1(0.7)・粗利率高(52%)・ROE(11%)・連続増配18年"
+    },
+    {
+      "ticker": "CRM",
+      "market": "US",
+      "name": "Salesforce Inc.",
+      "sector": "Technology",
+      "current_price": 169.52,
+      "total_score": 60.5,
+      "total_score_dividend": 40.9,
+      "total_score_growth": 40.5,
+      "judgment": "参考",
+      "quality_score": 51.5,
+      "timing_score": 74.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 33,
+          "news": 8.5,
+          "sector": 10.0,
+          "total": 51.5
+        },
+        "timing": {
+          "valuation": 40,
+          "macro": 22,
+          "technical": 12.0,
+          "total": 74.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(18%)"
+      ],
+      "fund_comment": "PER割安(10.9)・売上+13%・利益+52%・粗利率高(78%)・ROE(17%)・流動性低⚠",
+      "timing_comment": "52週安値圏(18%)・PER大幅割安",
+      "tech_comment": "短期↑・GC・RSI適正(53)・MACD↑",
+      "rsi": 53.421463567206025,
+      "div_yield": 0.0104,
+      "pe": 10.926996,
+      "pbr": 4.0554056,
+      "consecutive_div": 1,
+      "ex_div_date": "2026-06-11 00:00:00+00:00",
+      "comment": "PER割安(10.9)・売上+13%・利益+52%・粗利率高(78%)・ROE(17%)・流動性低⚠"
+    },
+    {
+      "ticker": "4053.T",
+      "market": "JP",
+      "name": "Sun Asterisk",
+      "sector": "Technology",
+      "current_price": 439.0,
+      "total_score": 59.3,
+      "total_score_dividend": 41.8,
+      "total_score_growth": 41.1,
+      "judgment": "参考",
+      "quality_score": 57.5,
+      "timing_score": 62.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 40,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 57.5
+        },
+        "timing": {
+          "valuation": 30,
+          "macro": 22,
+          "technical": 10.0,
+          "total": 62.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 8,
+      "bargain_reasons": [
+        "52週下位(34%)"
+      ],
+      "fund_comment": "PER適正(10.6)・PBR低(1.5)・売上+25%・利益+82%・財務健全",
+      "timing_comment": "52週下位(34%)・PER割安",
+      "tech_comment": "短期↑・RSI適正(54)・MACD↑",
+      "rsi": 53.80654179443425,
+      "div_yield": 0.0225,
+      "pe": 10.5605,
+      "pbr": 1.5268078,
+      "consecutive_div": 0,
+      "ex_div_date": "2026-12-29 00:00:00+00:00",
+      "comment": "PER適正(10.6)・PBR低(1.5)・売上+25%・利益+82%・財務健全"
+    },
+    {
+      "ticker": "NKE",
+      "market": "US",
+      "name": "Nike Inc.",
+      "sector": "Consumer Cyclical",
+      "current_price": 43.21,
+      "total_score": 59.1,
+      "total_score_dividend": 41.6,
+      "total_score_growth": 40.5,
+      "judgment": "参考",
+      "quality_score": 54.5,
+      "timing_score": 66.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 34,
+          "news": 10.5,
+          "sector": 10.0,
+          "total": 54.5
+        },
+        "timing": {
+          "valuation": 33,
+          "macro": 22,
+          "technical": 11.0,
+          "total": 66.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(8%)"
+      ],
+      "fund_comment": "PER適正(18.5)・配当3.8%・売上減⚠・利益+428%・ROE高(22%)・財務健全",
+      "timing_comment": "52週安値圏(8%)・PER割安",
+      "tech_comment": "RSI適正(49)・MACD↑・BB割安圏",
+      "rsi": 49.00431735116094,
+      "div_yield": 0.038,
+      "pe": 18.543713,
+      "pbr": 4.3097944,
+      "consecutive_div": 3,
+      "ex_div_date": "2026-06-01 00:00:00+00:00",
+      "comment": "PER適正(18.5)・配当3.8%・売上減⚠・利益+428%・ROE高(22%)・財務健全"
+    },
+    {
+      "ticker": "2768.T",
+      "market": "JP",
+      "name": "双日",
+      "sector": "Industrials",
+      "current_price": 5199.0,
+      "total_score": 58.9,
+      "total_score_dividend": 40.8,
+      "total_score_growth": 39.8,
+      "judgment": "参考",
+      "quality_score": 51.5,
+      "timing_score": 70.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 34,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 51.5
+        },
+        "timing": {
+          "valuation": 35,
+          "macro": 22,
+          "technical": 13.0,
+          "total": 70.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER割安(10.5)",
+        "PBR低(1.0)"
+      ],
+      "fund_comment": "PER割安(9.8)・PBR<1(1.0)・配当3.4%・売上+23%・利益減⚠",
+      "timing_comment": "PER大幅割安・配当落ち82日前",
+      "tech_comment": "短期↑・RSI適正(44)・MACD↑・BB割安圏",
+      "rsi": 44.14683731261599,
+      "div_yield": 0.0344,
+      "pe": 9.834856,
+      "pbr": 0.9920542,
+      "consecutive_div": 0,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(9.8)・PBR<1(1.0)・配当3.4%・売上+23%・利益減⚠"
+    },
+    {
+      "ticker": "MSFT",
+      "market": "US",
+      "name": "Microsoft Corp.",
+      "sector": "Technology",
+      "current_price": 388.84,
+      "total_score": 58.7,
+      "total_score_dividend": 40.1,
+      "total_score_growth": 39.9,
+      "judgment": "参考",
+      "quality_score": 52.5,
+      "timing_score": 68.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 35,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 52.5
+        },
+        "timing": {
+          "valuation": 31,
+          "macro": 22,
+          "technical": 15.0,
+          "total": 68.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(19%)"
+      ],
+      "fund_comment": "PER適正(20.1)・売上+18%・利益+23%・粗利率高(68%)・ROE高(34%)・財務健全",
+      "timing_comment": "52週安値圏(19%)",
+      "tech_comment": "短期↑・GC・RSI適正(49)・MACD↑・BB割安圏",
+      "rsi": 49.19867801789174,
+      "div_yield": 0.009399999999999999,
+      "pe": 20.084192,
+      "pbr": 6.971332,
+      "consecutive_div": 1,
+      "ex_div_date": "2026-08-20 00:00:00+00:00",
+      "comment": "PER適正(20.1)・売上+18%・利益+23%・粗利率高(68%)・ROE高(34%)・財務健全"
+    },
+    {
+      "ticker": "ADBE",
+      "market": "US",
+      "name": "Adobe Inc.",
+      "sector": "Technology",
+      "current_price": 221.54,
+      "total_score": 58.1,
+      "total_score_dividend": 38.5,
+      "total_score_growth": 38.5,
+      "judgment": "参考",
+      "quality_score": 47.5,
+      "timing_score": 74.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 29,
+          "news": 8.5,
+          "sector": 10.0,
+          "total": 47.5
+        },
+        "timing": {
+          "valuation": 40,
+          "macro": 22,
+          "technical": 12.0,
+          "total": 74.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 35,
+      "bargain_reasons": [
+        "PER大割安(12.7)",
+        "52週安値圏(16%)"
+      ],
+      "fund_comment": "PER割安(8.0)・売上+13%・粗利率高(89%)・ROE高(63%)・財務健全・流動性低⚠・増配7年",
+      "timing_comment": "52週安値圏(16%)・PER大幅割安",
+      "tech_comment": "短期↑・GC・RSI適正(52)・MACD↑",
+      "rsi": 51.97696211737305,
+      "div_yield": 0.0,
+      "pe": 8.047554,
+      "pbr": 7.6745067,
+      "consecutive_div": 7,
+      "ex_div_date": "2005-03-24 00:00:00+00:00",
+      "comment": "PER割安(8.0)・売上+13%・粗利率高(89%)・ROE高(63%)・財務健全・流動性低⚠・増配7年"
+    },
+    {
+      "ticker": "NFLX",
+      "market": "US",
+      "name": "Netflix Inc.",
+      "sector": "Communication Services",
+      "current_price": 76.18,
+      "total_score": 57.7,
+      "total_score_dividend": 39.5,
+      "total_score_growth": 39.5,
+      "judgment": "参考",
+      "quality_score": 53.5,
+      "timing_score": 64.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 33,
+          "news": 10.5,
+          "sector": 10.0,
+          "total": 53.5
+        },
+        "timing": {
+          "valuation": 31,
+          "macro": 22,
+          "technical": 11.0,
+          "total": 64.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(9%)"
+      ],
+      "fund_comment": "PER適正(19.8)・売上+16%・利益+86%・ROE高(48%)・財務健全",
+      "timing_comment": "52週安値圏(9%)",
+      "tech_comment": "RSI適正(44)・MACD↑・BB割安圏",
+      "rsi": 44.24046353814794,
+      "div_yield": 0.0,
+      "pe": 19.814137,
+      "pbr": 10.30992,
+      "consecutive_div": 0,
+      "ex_div_date": "None",
+      "comment": "PER適正(19.8)・売上+16%・利益+86%・ROE高(48%)・財務健全"
+    },
+    {
+      "ticker": "4206.T",
+      "market": "JP",
+      "name": "アイカ工業",
+      "sector": "Industrials",
+      "current_price": 3718.0,
+      "total_score": 57.7,
+      "total_score_dividend": 41.5,
+      "total_score_growth": 40.4,
+      "judgment": "参考",
+      "quality_score": 57.5,
+      "timing_score": 58.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 40,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 57.5
+        },
+        "timing": {
+          "valuation": 22,
+          "macro": 22,
+          "technical": 14.0,
+          "total": 58.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER適正(14.2)・PBR低(1.2)・配当3.8%・利益+55%・ROE(10%)・財務健全・増配4年",
+      "timing_comment": "配当落ち82日前",
+      "tech_comment": "中期↑・短期↑・RSI適正(67)・MACD↑",
+      "rsi": 66.98188972675628,
+      "div_yield": 0.037599999999999995,
+      "pe": 14.156798,
+      "pbr": 1.2349677,
+      "consecutive_div": 4,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER適正(14.2)・PBR低(1.2)・配当3.8%・利益+55%・ROE(10%)・財務健全・増配4年"
+    },
+    {
+      "ticker": "8750.T",
+      "market": "JP",
+      "name": "第一生命ホールディングス",
+      "sector": "Financial Services",
+      "current_price": 1864.0,
+      "total_score": 57.1,
+      "total_score_dividend": 40.6,
+      "total_score_growth": 39.5,
+      "judgment": "参考",
+      "quality_score": 54.5,
+      "timing_score": 61.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 37,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 54.5
+        },
+        "timing": {
+          "valuation": 25,
+          "macro": 22,
+          "technical": 14.0,
+          "total": 61.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER割安(5.0)・PBR低(1.6)・配当3.9%・売上+26%・利益減⚠・ROE(11%)・財務健全・連続増配14年",
+      "timing_comment": "52週高値圏(95%)・PER大幅割安・配当落ち82日前",
+      "tech_comment": "中期↑・短期↑・RSI適正(68)・MACD↑・BB過熱",
+      "rsi": 68.46783417147542,
+      "div_yield": 0.0387,
+      "pe": 5.039472,
+      "pbr": 1.5777718,
+      "consecutive_div": 14,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(5.0)・PBR低(1.6)・配当3.9%・売上+26%・利益減⚠・ROE(11%)・財務健全・連続増配14年"
+    },
+    {
+      "ticker": "2915.T",
+      "market": "JP",
+      "name": "ケンコーマヨネーズ",
+      "sector": "Consumer Defensive",
+      "current_price": 2120.0,
+      "total_score": 57.1,
+      "total_score_dividend": 40.9,
+      "total_score_growth": 39.9,
+      "judgment": "参考",
+      "quality_score": 56.5,
+      "timing_score": 58.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 39,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 56.5
+        },
+        "timing": {
+          "valuation": 26,
+          "macro": 22,
+          "technical": 10.0,
+          "total": 58.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER割安(10.7)",
+        "PBR低(0.7)"
+      ],
+      "fund_comment": "PER適正(11.3)・PBR<1(0.7)・配当3.4%・利益+117%・財務健全",
+      "timing_comment": "PER割安・配当落ち82日前",
+      "tech_comment": "短期↑・RSI適正(69)・MACD↑・BB過熱・出来高↑1.6x",
+      "rsi": 68.75630254666767,
+      "div_yield": 0.0336,
+      "pe": 11.336899,
+      "pbr": 0.7343838,
+      "consecutive_div": 2,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER適正(11.3)・PBR<1(0.7)・配当3.4%・利益+117%・財務健全"
+    },
+    {
+      "ticker": "ORCL",
+      "market": "US",
+      "name": "Oracle Corp.",
+      "sector": "Technology",
+      "current_price": 141.6,
+      "total_score": 56.7,
+      "total_score_dividend": 39.3,
+      "total_score_growth": 38.9,
+      "judgment": "参考",
+      "quality_score": 52.5,
+      "timing_score": 63.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 34,
+          "news": 8.5,
+          "sector": 10.0,
+          "total": 52.5
+        },
+        "timing": {
+          "valuation": 40,
+          "macro": 22,
+          "technical": 1.0,
+          "total": 63.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(3%)"
+      ],
+      "fund_comment": "PER割安(13.0)・売上+21%・利益+22%・粗利率高(66%)・ROE高(53%)・高負債⚠",
+      "timing_comment": "52週安値圏(3%)・PER大幅割安",
+      "tech_comment": "RSI過売(29)",
+      "rsi": 29.16933832021715,
+      "div_yield": 0.0141,
+      "pe": 12.965134,
+      "pbr": 10.858896,
+      "consecutive_div": 3,
+      "ex_div_date": "2026-07-10 00:00:00+00:00",
+      "comment": "PER割安(13.0)・売上+21%・利益+22%・粗利率高(66%)・ROE高(53%)・高負債⚠"
+    },
+    {
+      "ticker": "9503.T",
+      "market": "JP",
+      "name": "関西電力",
+      "sector": "Utilities",
+      "current_price": 2292.5,
+      "total_score": 56.5,
+      "total_score_dividend": 39.6,
+      "total_score_growth": 38.5,
+      "judgment": "参考",
+      "quality_score": 51.5,
+      "timing_score": 64.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 34,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 51.5
+        },
+        "timing": {
+          "valuation": 31,
+          "macro": 22,
+          "technical": 11.0,
+          "total": 64.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 30,
+      "bargain_reasons": [
+        "PER大割安(6.7)",
+        "PBR低(0.7)"
+      ],
+      "fund_comment": "PER割安(7.0)・PBR<1(0.7)・配当3.5%・売上減⚠・利益減⚠・ROE(12%)・財務健全",
+      "timing_comment": "PER大幅割安・配当落ち82日前",
+      "tech_comment": "RSI適正(47)・MACD↑・BB割安圏",
+      "rsi": 46.98498682743032,
+      "div_yield": 0.0348,
+      "pe": 6.9780536,
+      "pbr": 0.73917395,
+      "consecutive_div": 1,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(7.0)・PBR<1(0.7)・配当3.5%・売上減⚠・利益減⚠・ROE(12%)・財務健全"
+    },
+    {
+      "ticker": "QCOM",
+      "market": "US",
+      "name": "Qualcomm Inc.",
+      "sector": "Technology",
+      "current_price": 182.97,
+      "total_score": 55.9,
+      "total_score_dividend": 39.9,
+      "total_score_growth": 39.2,
+      "judgment": "参考",
+      "quality_score": 56.5,
+      "timing_score": 55.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 38,
+          "news": 8.5,
+          "sector": 10.0,
+          "total": 56.5
+        },
+        "timing": {
+          "valuation": 25,
+          "macro": 22,
+          "technical": 8.0,
+          "total": 55.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER適正(16.6)・売上減⚠・利益+173%・粗利率高(55%)・ROE高(36%)・財務健全・連続増配23年",
+      "timing_comment": "PER割安",
+      "tech_comment": "中期↑・RSI適正(42)",
+      "rsi": 42.06520467104067,
+      "div_yield": 0.020099999999999996,
+      "pe": 16.62363,
+      "pbr": 7.1034245,
+      "consecutive_div": 23,
+      "ex_div_date": "2026-06-04 00:00:00+00:00",
+      "comment": "PER適正(16.6)・売上減⚠・利益+173%・粗利率高(55%)・ROE高(36%)・財務健全・連続増配23年"
+    },
+    {
+      "ticker": "7267.T",
+      "market": "JP",
+      "name": "本田技研工業",
+      "sector": "Consumer Cyclical",
+      "current_price": 1525.0,
+      "total_score": 55.9,
+      "total_score_dividend": 39.0,
+      "total_score_growth": 37.6,
+      "judgment": "参考",
+      "quality_score": 48.5,
+      "timing_score": 67.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 31,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 48.5
+        },
+        "timing": {
+          "valuation": 31,
+          "macro": 22,
+          "technical": 14.0,
+          "total": 67.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 30,
+      "bargain_reasons": [
+        "PER大割安(6.7)",
+        "PBR低(0.5)"
+      ],
+      "fund_comment": "PER割安(6.7)・PBR<1(0.5)・配当4.5%・連続増配7年",
+      "timing_comment": "PER大幅割安・配当落ち82日前",
+      "tech_comment": "中期↑・短期↑・RSI適正(59)・MACD↑",
+      "rsi": 59.43418488961111,
+      "div_yield": 0.0446,
+      "pe": 6.684492,
+      "pbr": 0.50232106,
+      "consecutive_div": 7,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(6.7)・PBR<1(0.5)・配当4.5%・連続増配7年"
+    },
+    {
+      "ticker": "4507.T",
+      "market": "JP",
+      "name": "塩野義製薬",
+      "sector": "Healthcare",
+      "current_price": 2873.5,
+      "total_score": 55.7,
+      "total_score_dividend": 40.5,
+      "total_score_growth": 39.8,
+      "judgment": "参考",
+      "quality_score": 59.5,
+      "timing_score": 50.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 42,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 59.5
+        },
+        "timing": {
+          "valuation": 18,
+          "macro": 22,
+          "technical": 10.0,
+          "total": 50.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 18,
+      "bargain_reasons": [
+        "PER割安(11.9)",
+        "52週下位(35%)"
+      ],
+      "fund_comment": "PBR低(1.5)・売上+33%・利益+28%・粗利率高(83%)・ROE(14%)・財務健全・連続増配25年",
+      "timing_comment": "",
+      "tech_comment": "短期↑・RSI適正(52)・MACD↑",
+      "rsi": 51.63048984766827,
+      "div_yield": 0.026099999999999998,
+      "pe": 15.028766,
+      "pbr": 1.4510186,
+      "consecutive_div": 25,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PBR低(1.5)・売上+33%・利益+28%・粗利率高(83%)・ROE(14%)・財務健全・連続増配25年"
+    },
+    {
+      "ticker": "2871.T",
+      "market": "JP",
+      "name": "ニチレイ",
+      "sector": "Consumer Defensive",
+      "current_price": 2204.5,
+      "total_score": 55.7,
+      "total_score_dividend": 39.6,
+      "total_score_growth": 39.0,
+      "judgment": "参考",
+      "quality_score": 55.5,
+      "timing_score": 56.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 38,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 55.5
+        },
+        "timing": {
+          "valuation": 20,
+          "macro": 22,
+          "technical": 14.0,
+          "total": 56.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER割安(9.4)・PBR低(1.9)・利益+32%・財務健全・連続増配7年",
+      "timing_comment": "52週高値圏(95%)・PER大幅割安",
+      "tech_comment": "中期↑・短期↑・RSI適正(66)・MACD↑・BB過熱",
+      "rsi": 65.77573011592158,
+      "div_yield": 0.0227,
+      "pe": 9.355769,
+      "pbr": 1.9294493,
+      "consecutive_div": 7,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(9.4)・PBR低(1.9)・利益+32%・財務健全・連続増配7年"
+    },
+    {
+      "ticker": "4204.T",
+      "market": "JP",
+      "name": "積水化学工業",
+      "sector": "Industrials",
+      "current_price": 2637.5,
+      "total_score": 55.7,
+      "total_score_dividend": 39.1,
+      "total_score_growth": 38.1,
+      "judgment": "参考",
+      "quality_score": 51.5,
+      "timing_score": 62.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 34,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 51.5
+        },
+        "timing": {
+          "valuation": 26,
+          "macro": 22,
+          "technical": 14.0,
+          "total": 62.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER適正(13.6)・PBR低(1.3)・配当3.1%・利益+110%・財務健全",
+      "timing_comment": "配当落ち82日前",
+      "tech_comment": "中期↑・短期↑・RSI適正(68)・MACD↑",
+      "rsi": 68.43130523557073,
+      "div_yield": 0.030899999999999997,
+      "pe": 13.646711,
+      "pbr": 1.250926,
+      "consecutive_div": 0,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER適正(13.6)・PBR低(1.3)・配当3.1%・利益+110%・財務健全"
+    },
+    {
+      "ticker": "TGT",
+      "market": "US",
+      "name": "Target Corp.",
+      "sector": "Consumer Defensive",
+      "current_price": 127.55,
+      "total_score": 55.5,
+      "total_score_dividend": 38.5,
+      "total_score_growth": 37.5,
+      "judgment": "参考",
+      "quality_score": 48.5,
+      "timing_score": 66.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 28,
+          "news": 10.5,
+          "sector": 10.0,
+          "total": 48.5
+        },
+        "timing": {
+          "valuation": 33,
+          "macro": 22,
+          "technical": 11.0,
+          "total": 66.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 10,
+      "bargain_reasons": [
+        "PER割安(16.9)"
+      ],
+      "fund_comment": "PER割安(14.3)・配当3.6%・利益減⚠・ROE高(22%)・流動性低⚠・連続増配42年",
+      "timing_comment": "PER大幅割安・配当落ち34日前(買い時)",
+      "tech_comment": "中期↑・RSI適正(46)・BB割安圏",
+      "rsi": 45.9983152157173,
+      "div_yield": 0.0364,
+      "pe": 14.294248,
+      "pbr": 3.5334368,
+      "consecutive_div": 42,
+      "ex_div_date": "2026-08-12 00:00:00+00:00",
+      "comment": "PER割安(14.3)・配当3.6%・利益減⚠・ROE高(22%)・流動性低⚠・連続増配42年"
+    },
+    {
+      "ticker": "WFC",
+      "market": "US",
+      "name": "Wells Fargo",
+      "sector": "Financial Services",
+      "current_price": 87.18,
+      "total_score": 55.4,
+      "total_score_dividend": 38.5,
+      "total_score_growth": 37.9,
+      "judgment": "参考",
+      "quality_score": 51.0,
+      "timing_score": 62.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 33,
+          "news": 8.0,
+          "sector": 10.0,
+          "total": 51.0
+        },
+        "timing": {
+          "valuation": 26,
+          "macro": 22,
+          "technical": 14.0,
+          "total": 62.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER大割安(13.5)"
+      ],
+      "fund_comment": "PER割安(11.0)・PBR低(1.6)・ROE(12%)・連続増配36年",
+      "timing_comment": "PER大幅割安",
+      "tech_comment": "中期↑・短期↑・RSI適正(65)・MACD↑・BB過熱",
+      "rsi": 65.38718489672267,
+      "div_yield": 0.0206,
+      "pe": 11.020461,
+      "pbr": 1.6389066,
+      "consecutive_div": 36,
+      "ex_div_date": "2026-05-08 00:00:00+00:00",
+      "comment": "PER割安(11.0)・PBR低(1.6)・ROE(12%)・連続増配36年"
+    }
+  ],
+  "bargain_picks": [],
+  "candidate_count": 33,
+  "news": {
+    "article_count": 135,
+    "crisis_count": 19,
+    "acute_count": 0,
+    "chronic_count": 6,
+    "acute_keywords": [],
+    "sector_scores": {
+      "Energy": 16.5,
+      "Consumer": 21.5,
+      "General": 17.4,
+      "Financials": 16.6,
+      "Technology": 17.1,
+      "Industrials": 25.6,
+      "Healthcare": 22.2,
+      "Macro": 20.8
+    },
+    "top_positive": [],
+    "top_negative": [],
+    "ticker_scores": {
+      "MSFT": 15.0,
+      "JNJ": 20.7,
+      "AAPL": 24.9,
+      "NFLX": 21.3,
+      "DIS": 21.3,
+      "GOOGL": 21.3,
+      "NVDA": 25.6,
+      "AMZN": 19.3,
+      "META": 19.2,
+      "4477.T": 18.6
+    },
+    "article_details": [
+      {
+        "title": "NY原油先物価格 一時1バレル＝75ドル台 トランプ大統領発言で",
+        "source": "nhk_economy",
+        "sentiment": 1.0,
+        "duration": "mid",
+        "sectors": [
+          "Energy",
+          "Consumer"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:41:56+00:00",
+        "is_short_negative": false,
+        "title_ja": "NY原油先物価格 一時1バレル＝75ドル台 トランプ大統領発言で"
+      },
+      {
+        "title": "NY原油先物価格 一時1バレル＝75ドル台 トランプ大統領発言で",
+        "source": "nhk_economy",
+        "sentiment": 1.0,
+        "duration": "mid",
+        "sectors": [
+          "Energy",
+          "Consumer"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:41:56+00:00",
+        "title_ja": "NY原油先物価格 一時1バレル＝75ドル台 トランプ大統領発言で"
+      },
+      {
+        "title": "NATO首脳会議 2日目 国防費を協議",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:32:47+00:00",
+        "is_short_negative": false,
+        "title_ja": "NATO首脳会議 2日目 国防費を協議"
+      },
+      {
+        "title": "NATO首脳会議 2日目 国防費を協議",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:32:47+00:00",
+        "title_ja": "NATO首脳会議 2日目 国防費を協議"
+      },
+      {
+        "title": "“中国ミサイル発射は大きな脅威” 自民合同会議で懸念の声",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:29:52+00:00",
+        "is_short_negative": false,
+        "title_ja": "“中国ミサイル発射は大きな脅威” 自民合同会議で懸念の声"
+      },
+      {
+        "title": "“中国ミサイル発射は大きな脅威” 自民合同会議で懸念の声",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:29:52+00:00",
+        "title_ja": "“中国ミサイル発射は大きな脅威” 自民合同会議で懸念の声"
+      },
+      {
+        "title": "クロマグロ国際会議が開幕 新ルール合意で増枠できるか焦点",
+        "source": "nhk_economy",
+        "sentiment": 1.0,
+        "duration": "short",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T10:27:31+00:00",
+        "is_short_negative": false,
+        "title_ja": "クロマグロ国際会議が開幕 新ルール合意で増枠できるか焦点"
+      },
+      {
+        "title": "クロマグロ国際会議が開幕 新ルール合意で増枠できるか焦点",
+        "source": "nhk_economy",
+        "sentiment": 1.0,
+        "duration": "short",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T10:27:31+00:00",
+        "title_ja": "クロマグロ国際会議が開幕 新ルール合意で増枠できるか焦点"
+      },
+      {
+        "title": "トランプ大統領 イランとの停戦や覚書「終わったと思う」",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T09:57:54+00:00",
+        "is_short_negative": false,
+        "title_ja": "トランプ大統領 イランとの停戦や覚書「終わったと思う」"
+      },
+      {
+        "title": "トランプ大統領 イランとの停戦や覚書「終わったと思う」",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T09:57:54+00:00",
+        "title_ja": "トランプ大統領 イランとの停戦や覚書「終わったと思う」"
+      },
+      {
+        "title": "パキスタン沖で貨物機が消息絶つ 乗員5人 機体捜索活動続く",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T09:11:10+00:00",
+        "is_short_negative": false,
+        "title_ja": "パキスタン沖で貨物機が消息絶つ 乗員5人 機体捜索活動続く"
+      },
+      {
+        "title": "パキスタン沖で貨物機が消息絶つ 乗員5人 機体捜索活動続く",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T09:11:10+00:00",
+        "title_ja": "パキスタン沖で貨物機が消息絶つ 乗員5人 機体捜索活動続く"
+      },
+      {
+        "title": "台湾 “「第1列島線」中国による現状変更進む 連携し対応を”",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T07:31:03+00:00",
+        "is_short_negative": false,
+        "title_ja": "台湾 “「第1列島線」中国による現状変更進む 連携し対応を”"
+      },
+      {
+        "title": "台湾 “「第1列島線」中国による現状変更進む 連携し対応を”",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T07:31:03+00:00",
+        "title_ja": "台湾 “「第1列島線」中国による現状変更進む 連携し対応を”"
+      },
+      {
+        "title": "【随時更新】ロシア ウクライナに軍事侵攻（7月8日の動き）",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-07-08T07:21:21+00:00",
+        "is_short_negative": false,
+        "title_ja": "【随時更新】ロシア ウクライナに軍事侵攻（7月8日の動き）"
+      },
+      {
+        "title": "【随時更新】ロシア ウクライナに軍事侵攻（7月8日の動き）",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-07-08T07:21:21+00:00",
+        "title_ja": "【随時更新】ロシア ウクライナに軍事侵攻（7月8日の動き）"
+      },
+      {
+        "title": "ウクライナ軍「国境から約2500キロの石油精製施設を攻撃」",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T03:04:08+00:00",
+        "is_short_negative": false,
+        "title_ja": "ウクライナ軍「国境から約2500キロの石油精製施設を攻撃」"
+      },
+      {
+        "title": "ウクライナ軍「国境から約2500キロの石油精製施設を攻撃」",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T03:04:08+00:00",
+        "title_ja": "ウクライナ軍「国境から約2500キロの石油精製施設を攻撃」"
+      },
+      {
+        "title": "「SDGs目標は依然達成可能」 国連報告書で各国に行動呼びかけ",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-07-08T02:05:13+00:00",
+        "is_short_negative": false,
+        "title_ja": "「SDGs目標は依然達成可能」 国連報告書で各国に行動呼びかけ"
+      },
+      {
+        "title": "「SDGs目標は依然達成可能」 国連報告書で各国に行動呼びかけ",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-07-08T02:05:13+00:00",
+        "title_ja": "「SDGs目標は依然達成可能」 国連報告書で各国に行動呼びかけ"
+      },
+      {
+        "title": "NY中心部のビルで柱が曲がり倒壊のおそれ 周辺が封鎖される",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T01:10:41+00:00",
+        "is_short_negative": false,
+        "title_ja": "NY中心部のビルで柱が曲がり倒壊のおそれ 周辺が封鎖される"
+      },
+      {
+        "title": "NY中心部のビルで柱が曲がり倒壊のおそれ 周辺が封鎖される",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T01:10:41+00:00",
+        "title_ja": "NY中心部のビルで柱が曲がり倒壊のおそれ 周辺が封鎖される"
+      },
+      {
+        "title": "小泉防衛相 イギリス国防相と次期戦闘機共同開発など連携確認",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T00:32:02+00:00",
+        "is_short_negative": false,
+        "title_ja": "小泉防衛相 イギリス国防相と次期戦闘機共同開発など連携確認"
+      },
+      {
+        "title": "小泉防衛相 イギリス国防相と次期戦闘機共同開発など連携確認",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T00:32:02+00:00",
+        "title_ja": "小泉防衛相 イギリス国防相と次期戦闘機共同開発など連携確認"
+      },
+      {
+        "title": "ハンガリー公共テレビ局「うそをおわび」放送が黒画面に",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "short",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T00:30:24+00:00",
+        "is_short_negative": false,
+        "title_ja": "ハンガリー公共テレビ局「うそをおわび」放送が黒画面に"
+      },
+      {
+        "title": "ハンガリー公共テレビ局「うそをおわび」放送が黒画面に",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "short",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T00:30:24+00:00",
+        "title_ja": "ハンガリー公共テレビ局「うそをおわび」放送が黒画面に"
+      },
+      {
+        "title": "トランプ政権 イラン産原油の生産・販売認可を取り消しと発表",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "short",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T00:24:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "トランプ政権 イラン産原油の生産・販売認可を取り消しと発表"
+      },
+      {
+        "title": "トランプ政権 イラン産原油の生産・販売認可を取り消しと発表",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "short",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T00:24:00+00:00",
+        "title_ja": "トランプ政権 イラン産原油の生産・販売認可を取り消しと発表"
+      },
+      {
+        "title": "英リフォームUK党首が下院議員を辞職 補欠選挙へ立候補へ",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T23:39:51+00:00",
+        "is_short_negative": false,
+        "title_ja": "英リフォームUK党首が下院議員を辞職 補欠選挙へ立候補へ"
+      },
+      {
+        "title": "英リフォームUK党首が下院議員を辞職 補欠選挙へ立候補へ",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T23:39:51+00:00",
+        "title_ja": "英リフォームUK党首が下院議員を辞職 補欠選挙へ立候補へ"
+      },
+      {
+        "title": "仏ルペン氏 控訴審も有罪 上告し大統領選挙に立候補の意向",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "short",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T23:09:36+00:00",
+        "is_short_negative": false,
+        "title_ja": "仏ルペン氏 控訴審も有罪 上告し大統領選挙に立候補の意向"
+      },
+      {
+        "title": "仏ルペン氏 控訴審も有罪 上告し大統領選挙に立候補の意向",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "short",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T23:09:36+00:00",
+        "title_ja": "仏ルペン氏 控訴審も有罪 上告し大統領選挙に立候補の意向"
+      },
+      {
+        "title": "NATO首脳会議が開幕 米トランプ大統領「がっかり」とけん制",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T22:53:11+00:00",
+        "is_short_negative": false,
+        "title_ja": "NATO首脳会議が開幕 米トランプ大統領「がっかり」とけん制"
+      },
+      {
+        "title": "NATO首脳会議が開幕 米トランプ大統領「がっかり」とけん制",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T22:53:11+00:00",
+        "title_ja": "NATO首脳会議が開幕 米トランプ大統領「がっかり」とけん制"
+      },
+      {
+        "title": "アメリカ・ドイツ防衛企業 ATACMSをヨーロッパで生産へ",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T22:41:23+00:00",
+        "is_short_negative": false,
+        "title_ja": "アメリカ・ドイツ防衛企業 ATACMSをヨーロッパで生産へ"
+      },
+      {
+        "title": "アメリカ・ドイツ防衛企業 ATACMSをヨーロッパで生産へ",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T22:41:23+00:00",
+        "title_ja": "アメリカ・ドイツ防衛企業 ATACMSをヨーロッパで生産へ"
+      },
+      {
+        "title": "日米韓外相 中国ミサイルへの懸念共有 3か国結束重要で一致",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "long",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T20:35:50+00:00",
+        "is_short_negative": false,
+        "title_ja": "日米韓外相 中国ミサイルへの懸念共有 3か国結束重要で一致"
+      },
+      {
+        "title": "日米韓外相 中国ミサイルへの懸念共有 3か国結束重要で一致",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "long",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T20:35:50+00:00",
+        "title_ja": "日米韓外相 中国ミサイルへの懸念共有 3か国結束重要で一致"
+      },
+      {
+        "title": "在中国の日本大使館が注意喚起 軍民両用品目の輸出管理強化で",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T14:36:09+00:00",
+        "is_short_negative": false,
+        "title_ja": "在中国の日本大使館が注意喚起 軍民両用品目の輸出管理強化で"
+      },
+      {
+        "title": "在中国の日本大使館が注意喚起 軍民両用品目の輸出管理強化で",
+        "source": "nhk_economy",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T14:36:09+00:00",
+        "title_ja": "在中国の日本大使館が注意喚起 軍民両用品目の輸出管理強化で"
+      },
+      {
+        "title": "全東信破産 負債額は1000億円超",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T06:27:59+00:00",
+        "is_short_negative": false,
+        "title_ja": "全東信破産 負債額は1000億円超"
+      },
+      {
+        "title": "全東信破産 負債額は1000億円超",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T06:27:59+00:00",
+        "title_ja": "全東信破産 負債額は1000億円超"
+      },
+      {
+        "title": "全東信破産 20年前から粉飾決算か",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T08:30:48+00:00",
+        "is_short_negative": false,
+        "title_ja": "全東信破産 20年前から粉飾決算か"
+      },
+      {
+        "title": "全東信破産 20年前から粉飾決算か",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T08:30:48+00:00",
+        "title_ja": "全東信破産 20年前から粉飾決算か"
+      },
+      {
+        "title": "ノーリツが下請法違反 公取委勧告",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T09:17:40+00:00",
+        "is_short_negative": false,
+        "title_ja": "ノーリツが下請法違反 公取委勧告"
+      },
+      {
+        "title": "ノーリツが下請法違反 公取委勧告",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T09:17:40+00:00",
+        "title_ja": "ノーリツが下請法違反 公取委勧告"
+      },
+      {
+        "title": "5000人が250億円投資被害 告訴へ",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T04:09:28+00:00",
+        "is_short_negative": false,
+        "title_ja": "5000人が250億円投資被害 告訴へ"
+      },
+      {
+        "title": "5000人が250億円投資被害 告訴へ",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T04:09:28+00:00",
+        "title_ja": "5000人が250億円投資被害 告訴へ"
+      },
+      {
+        "title": "夫の転勤で妻は転職 家族にも負担",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T08:16:01+00:00",
+        "is_short_negative": false,
+        "title_ja": "夫の転勤で妻は転職 家族にも負担"
+      },
+      {
+        "title": "夫の転勤で妻は転職 家族にも負担",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T08:16:01+00:00",
+        "title_ja": "夫の転勤で妻は転職 家族にも負担"
+      },
+      {
+        "title": "焼肉店窮地 ロピアが新たな競合?",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T08:18:19+00:00",
+        "is_short_negative": false,
+        "title_ja": "焼肉店窮地 ロピアが新たな競合?"
+      },
+      {
+        "title": "焼肉店窮地 ロピアが新たな競合?",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T08:18:19+00:00",
+        "title_ja": "焼肉店窮地 ロピアが新たな競合?"
+      },
+      {
+        "title": "喜多方ラーメンの閉店相次ぐ 背景",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T06:16:03+00:00",
+        "is_short_negative": false,
+        "title_ja": "喜多方ラーメンの閉店相次ぐ 背景"
+      },
+      {
+        "title": "喜多方ラーメンの閉店相次ぐ 背景",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T06:16:03+00:00",
+        "title_ja": "喜多方ラーメンの閉店相次ぐ 背景"
+      },
+      {
+        "title": "蛇口からカルピス 設置先拡大の訳",
+        "source": "yahoo_jp_stock",
+        "sentiment": 1.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T10:53:26+00:00",
+        "is_short_negative": false,
+        "title_ja": "蛇口からカルピス 設置先拡大の訳"
+      },
+      {
+        "title": "蛇口からカルピス 設置先拡大の訳",
+        "source": "yahoo_jp_stock",
+        "sentiment": 1.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T10:53:26+00:00",
+        "title_ja": "蛇口からカルピス 設置先拡大の訳"
+      },
+      {
+        "title": "Bank of America warns America now has 2 economies",
+        "source": "yahoo_finance",
+        "sentiment": -0.103,
+        "duration": "mid",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-07-07T20:23:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "バンク・オブ・アメリカ、アメリカには現在2つの経済があると警告"
+      },
+      {
+        "title": "Bank of America warns America now has 2 economies",
+        "source": "yahoo_finance",
+        "sentiment": -0.103,
+        "duration": "mid",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-07-07T20:23:00+00:00",
+        "title_ja": "バンク・オブ・アメリカ、アメリカには現在2つの経済があると警告"
+      },
+      {
+        "title": "Oil jumps over 5% to two-week high after Trump says deal with Iran 'over'",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:32:39+00:00",
+        "is_short_negative": false,
+        "title_ja": "トランプ大統領がイランとの合意は「終わった」と発言後、原油は5％超急騰し2週間ぶりの高値となった"
+      },
+      {
+        "title": "Oil jumps over 5% to two-week high after Trump says deal with Iran 'over'",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:32:39+00:00",
+        "title_ja": "トランプ大統領がイランとの合意は「終わった」と発言後、原油は5％超急騰し2週間ぶりの高値となった"
+      },
+      {
+        "title": "Is IQVIA Holdings (IQV) Resilient to AI Concerns?",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:29:09+00:00",
+        "is_short_negative": false,
+        "title_ja": "IQVIA Holdings (IQV) は AI の懸念に対して耐性があるか?"
+      },
+      {
+        "title": "Is IQVIA Holdings (IQV) Resilient to AI Concerns?",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:29:09+00:00",
+        "title_ja": "IQVIA Holdings (IQV) は AI の懸念に対して耐性があるか?"
+      },
+      {
+        "title": "Is Veralto (VLTO) Trading at a Fair Valuation?",
+        "source": "yahoo_finance",
+        "sentiment": 0.318,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:25:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "ヴェラルト (VLTO) は公正な評価で取引されていますか?"
+      },
+      {
+        "title": "Is Veralto (VLTO) Trading at a Fair Valuation?",
+        "source": "yahoo_finance",
+        "sentiment": 0.318,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:25:00+00:00",
+        "title_ja": "ヴェラルト (VLTO) は公正な評価で取引されていますか?"
+      },
+      {
+        "title": "Strong Growth Fueled Analog Devices (ADI) in Q1",
+        "source": "yahoo_finance",
+        "sentiment": 0.71,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:23:14+00:00",
+        "is_short_negative": false,
+        "title_ja": "第 1 四半期にアナログ・デバイセズ (ADI) が力強い成長を遂げた"
+      },
+      {
+        "title": "Strong Growth Fueled Analog Devices (ADI) in Q1",
+        "source": "yahoo_finance",
+        "sentiment": 0.71,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:23:14+00:00",
+        "title_ja": "第 1 四半期にアナログ・デバイセズ (ADI) が力強い成長を遂げた"
+      },
+      {
+        "title": "Market Digest: RCL",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T10:51:34+00:00",
+        "is_short_negative": false,
+        "title_ja": "市場ダイジェスト: RCL"
+      },
+      {
+        "title": "Market Digest: RCL",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T10:51:34+00:00",
+        "title_ja": "市場ダイジェスト: RCL"
+      },
+      {
+        "title": "CoreWeave stock sinks as mag 7 move rattles investors",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T21:33:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "マグニチュード7の動きで投資家が動揺し、コアウィーブ株が下落"
+      },
+      {
+        "title": "CoreWeave stock sinks as mag 7 move rattles investors",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-07T21:33:00+00:00",
+        "title_ja": "マグニチュード7の動きで投資家が動揺し、コアウィーブ株が下落"
+      },
+      {
+        "title": "Here’s What Boosted Permian Resources (PR) in Q1",
+        "source": "yahoo_finance",
+        "sentiment": 0.361,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:20:26+00:00",
+        "is_short_negative": false,
+        "title_ja": "第 1 四半期にペルム紀リソース (PR) を押し上げた要因は次のとおりです"
+      },
+      {
+        "title": "Here’s What Boosted Permian Resources (PR) in Q1",
+        "source": "yahoo_finance",
+        "sentiment": 0.361,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:20:26+00:00",
+        "title_ja": "第 1 四半期にペルム紀リソース (PR) を押し上げた要因は次のとおりです"
+      },
+      {
+        "title": "These Two Growth Stocks Are Poised To Break Out. One Reports This Week.",
+        "source": "yahoo_finance",
+        "sentiment": 0.557,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:15:57+00:00",
+        "is_short_negative": false,
+        "title_ja": "これら 2 つの成長株はブレイクする準備ができています。今週のレポート。"
+      },
+      {
+        "title": "These Two Growth Stocks Are Poised To Break Out. One Reports This Week.",
+        "source": "yahoo_finance",
+        "sentiment": 0.557,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:15:57+00:00",
+        "title_ja": "これら 2 つの成長株はブレイクする準備ができています。今週のレポート。"
+      },
+      {
+        "title": "Dow Jones Futures Tumble, Oil Prices Soar As Trump Says U.S.-Iran Ceasefire 'Over'",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:15:16+00:00",
+        "is_short_negative": false,
+        "title_ja": "トランプ大統領が米イラン停戦は「終わった」と発言、ダウジョーンズ先物は下落、原油価格は急騰"
+      },
+      {
+        "title": "Dow Jones Futures Tumble, Oil Prices Soar As Trump Says U.S.-Iran Ceasefire 'Over'",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:15:16+00:00",
+        "title_ja": "トランプ大統領が米イラン停戦は「終わった」と発言、ダウジョーンズ先物は下落、原油価格は急騰"
+      },
+      {
+        "title": "QQQ Killer? Blackrock Launches Plan To Take Down The ETF Juggernaut This Week",
+        "source": "yahoo_finance",
+        "sentiment": -0.649,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:15:06+00:00",
+        "is_short_negative": false,
+        "title_ja": "QQQキラー?ブラックロック、今週巨大ETFを潰す計画を開始"
+      },
+      {
+        "title": "QQQ Killer? Blackrock Launches Plan To Take Down The ETF Juggernaut This Week",
+        "source": "yahoo_finance",
+        "sentiment": -0.649,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:15:06+00:00",
+        "title_ja": "QQQキラー?ブラックロック、今週巨大ETFを潰す計画を開始"
+      },
+      {
+        "title": "Kalohexis confidentially files IPO to back obesity and cachexia portfolio",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:40:02+00:00",
+        "is_short_negative": false,
+        "title_ja": "カロヘクシス、肥満と悪液質のポートフォリオを支援するために極秘にIPOを申請"
+      },
+      {
+        "title": "Kalohexis confidentially files IPO to back obesity and cachexia portfolio",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-07-08T11:40:02+00:00",
+        "title_ja": "カロヘクシス、肥満と悪液質のポートフォリオを支援するために極秘にIPOを申請"
+      }
+    ]
+  }
+}
