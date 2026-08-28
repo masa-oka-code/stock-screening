@@ -1,0 +1,2173 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T21:11:14.324869",
+  "macro": {
+    "vix": 14.430000305175781,
+    "sp500_30d": 0.03607011804180273,
+    "nk225_30d": -0.038101437093481925,
+    "usdjpy": 160.03799438476562,
+    "risk_level": "LOW",
+    "macro_score": -18,
+    "macro_timing": 18,
+    "bargain_mode": false,
+    "suspend": false,
+    "reasons": [
+      "日経225 デッドクロス",
+      "急性危機KW検出(1件)"
+    ]
+  },
+  "candidates": [
+    {
+      "ticker": "4516.T",
+      "market": "JP",
+      "name": "日本新薬",
+      "sector": "Healthcare",
+      "current_price": 3592.0,
+      "total_score": 76.9,
+      "total_score_dividend": 54.6,
+      "total_score_growth": 53.5,
+      "judgment": "積極推薦",
+      "quality_score": 75.5,
+      "timing_score": 79.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 58,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 75.5
+        },
+        "timing": {
+          "valuation": 50,
+          "macro": 18,
+          "technical": 11.0,
+          "total": 79.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 45,
+      "bargain_reasons": [
+        "PER大割安(8.1)",
+        "PBR低(0.8)",
+        "52週安値圏(14%)"
+      ],
+      "fund_comment": "PER割安(8.7)・PBR<1(0.8)・配当3.5%・売上+24%・利益+22%・粗利率高(65%)・ROE(12%)・財務健全・増配3年",
+      "timing_comment": "52週安値圏(14%)・PER大幅割安・配当落ち31日前(買い時)",
+      "tech_comment": "RSI適正(43)・MACD↑・BB割安圏",
+      "rsi": 42.908455311086215,
+      "div_yield": 0.0345,
+      "pe": 8.748386,
+      "pbr": 0.81955016,
+      "consecutive_div": 3,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(8.7)・PBR<1(0.8)・配当3.5%・売上+24%・利益+22%・粗利率高(65%)・ROE(12%)・財務健全・増配3年"
+    },
+    {
+      "ticker": "7203.T",
+      "market": "JP",
+      "name": "トヨタ自動車",
+      "sector": "Consumer Cyclical",
+      "current_price": 3116.0,
+      "total_score": 69.5,
+      "total_score_dividend": 49.0,
+      "total_score_growth": 48.0,
+      "judgment": "候補",
+      "quality_score": 66.5,
+      "timing_score": 74.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 49,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 66.5
+        },
+        "timing": {
+          "valuation": 45,
+          "macro": 18,
+          "technical": 11.0,
+          "total": 74.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 38,
+      "bargain_reasons": [
+        "PER大割安(8.9)",
+        "PBR低(1.0)",
+        "52週下位(33%)"
+      ],
+      "fund_comment": "PER割安(9.6)・PBR<1(1.0)・配当3.2%・売上+10%・利益+87%・ROE(12%)・連続増配9年",
+      "timing_comment": "52週下位(33%)・PER大幅割安・配当落ち31日前(買い時)",
+      "tech_comment": "RSI適正(57)・MACD↑・BB割安圏",
+      "rsi": 56.60129800797587,
+      "div_yield": 0.0325,
+      "pe": 9.610758,
+      "pbr": 0.9890192,
+      "consecutive_div": 9,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(9.6)・PBR<1(1.0)・配当3.2%・売上+10%・利益+87%・ROE(12%)・連続増配9年"
+    },
+    {
+      "ticker": "NVDA",
+      "market": "US",
+      "name": "NVIDIA Corp.",
+      "sector": "Technology",
+      "current_price": 217.55,
+      "total_score": 64.1,
+      "total_score_dividend": 46.5,
+      "total_score_growth": 46.4,
+      "judgment": "候補",
+      "quality_score": 71.5,
+      "timing_score": 53.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 48,
+          "news": 11.5,
+          "sector": 12.0,
+          "total": 71.5
+        },
+        "timing": {
+          "valuation": 23,
+          "macro": 18,
+          "technical": 12.0,
+          "total": 53.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER割安(14.3)・売上+106%・利益+128%・粗利率高(75%)・ROE高(117%)・財務健全・連続増配14年",
+      "timing_comment": "PER大幅割安",
+      "tech_comment": "中期↑・RSI適正(52)・BB割安圏・出来高↑1.5x",
+      "rsi": 52.34397595634807,
+      "div_yield": 0.0044,
+      "pe": 14.34279,
+      "pbr": 26.95787,
+      "consecutive_div": 14,
+      "ex_div_date": "2026-09-10 00:00:00+00:00",
+      "comment": "PER割安(14.3)・売上+106%・利益+128%・粗利率高(75%)・ROE高(117%)・財務健全・連続増配14年"
+    },
+    {
+      "ticker": "8473.T",
+      "market": "JP",
+      "name": "SBIホールディングス",
+      "sector": "Financial Services",
+      "current_price": 3427.0,
+      "total_score": 63.7,
+      "total_score_dividend": 45.9,
+      "total_score_growth": 45.0,
+      "judgment": "候補",
+      "quality_score": 65.5,
+      "timing_score": 61.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 48,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 65.5
+        },
+        "timing": {
+          "valuation": 36,
+          "macro": 18,
+          "technical": 7.0,
+          "total": 61.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 30,
+      "bargain_reasons": [
+        "PER大割安(5.5)",
+        "PBR低(1.2)"
+      ],
+      "fund_comment": "PER割安(8.4)・PBR低(1.2)・配当3.1%・売上+29%・利益+64%・粗利率高(77%)・ROE高(23%)・高負債⚠",
+      "timing_comment": "PER大幅割安・配当落ち31日前(買い時)",
+      "tech_comment": "MACD↑・BB割安圏",
+      "rsi": 71.13245140708199,
+      "div_yield": 0.0308,
+      "pe": 8.422423,
+      "pbr": 1.1876147,
+      "consecutive_div": 1,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(8.4)・PBR低(1.2)・配当3.1%・売上+29%・利益+64%・粗利率高(77%)・ROE高(23%)・高負債⚠"
+    },
+    {
+      "ticker": "8750.T",
+      "market": "JP",
+      "name": "第一生命ホールディングス",
+      "sector": "Financial Services",
+      "current_price": 1843.0,
+      "total_score": 63.1,
+      "total_score_dividend": 46.4,
+      "total_score_growth": 45.2,
+      "judgment": "候補",
+      "quality_score": 68.5,
+      "timing_score": 55.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 51,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 68.5
+        },
+        "timing": {
+          "valuation": 30,
+          "macro": 18,
+          "technical": 7.0,
+          "total": 55.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER割安(5.0)・PBR低(1.5)・配当4.0%・売上+28%・利益+278%・ROE(14%)・財務健全・連続増配14年",
+      "timing_comment": "52週高値圏(87%)・PER大幅割安・配当落ち31日前(買い時)",
+      "tech_comment": "RSI適正(47)・BB割安圏",
+      "rsi": 46.594173530156915,
+      "div_yield": 0.039599999999999996,
+      "pe": 4.982697,
+      "pbr": 1.4514291,
+      "consecutive_div": 14,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(5.0)・PBR低(1.5)・配当4.0%・売上+28%・利益+278%・ROE(14%)・財務健全・連続増配14年"
+    },
+    {
+      "ticker": "9503.T",
+      "market": "JP",
+      "name": "関西電力",
+      "sector": "Utilities",
+      "current_price": 2612.5,
+      "total_score": 62.3,
+      "total_score_dividend": 44.6,
+      "total_score_growth": 43.6,
+      "judgment": "候補",
+      "quality_score": 62.5,
+      "timing_score": 62.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 45,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 62.5
+        },
+        "timing": {
+          "valuation": 33,
+          "macro": 18,
+          "technical": 11.0,
+          "total": 62.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 30,
+      "bargain_reasons": [
+        "PER大割安(7.7)",
+        "PBR低(0.8)"
+      ],
+      "fund_comment": "PER割安(8.0)・PBR<1(0.8)・配当3.1%・利益+38%・ROE(13%)・財務健全",
+      "timing_comment": "PER大幅割安・配当落ち31日前(買い時)",
+      "tech_comment": "RSI適正(69)・MACD↑・BB割安圏",
+      "rsi": 69.25126667604304,
+      "div_yield": 0.030699999999999998,
+      "pe": 7.95209,
+      "pbr": 0.81587285,
+      "consecutive_div": 1,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(8.0)・PBR<1(0.8)・配当3.1%・利益+38%・ROE(13%)・財務健全"
+    },
+    {
+      "ticker": "5108.T",
+      "market": "JP",
+      "name": "ブリヂストン",
+      "sector": "Consumer Cyclical",
+      "current_price": 4113.0,
+      "total_score": 61.7,
+      "total_score_dividend": 45.7,
+      "total_score_growth": 44.8,
+      "judgment": "候補",
+      "quality_score": 69.5,
+      "timing_score": 50.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 52,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 69.5
+        },
+        "timing": {
+          "valuation": 25,
+          "macro": 18,
+          "technical": 7.0,
+          "total": 50.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER割安(7.4)・PBR低(1.4)・配当3.1%・売上+14%・利益+210%・ROE(11%)・財務健全・連続増配7年",
+      "timing_comment": "PER大幅割安",
+      "tech_comment": "RSI適正(61)・BB割安圏",
+      "rsi": 60.945118729914384,
+      "div_yield": 0.031400000000000004,
+      "pe": 7.3593616,
+      "pbr": 1.3537399,
+      "consecutive_div": 7,
+      "ex_div_date": "2026-12-29 00:00:00+00:00",
+      "comment": "PER割安(7.4)・PBR低(1.4)・配当3.1%・売上+14%・利益+210%・ROE(11%)・財務健全・連続増配7年"
+    },
+    {
+      "ticker": "USB",
+      "market": "US",
+      "name": "US Bancorp",
+      "sector": "Financial Services",
+      "current_price": 62.47,
+      "total_score": 59.9,
+      "total_score_dividend": 44.2,
+      "total_score_growth": 43.2,
+      "judgment": "候補",
+      "quality_score": 66.5,
+      "timing_score": 50.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 45,
+          "news": 9.5,
+          "sector": 12.0,
+          "total": 66.5
+        },
+        "timing": {
+          "valuation": 21,
+          "macro": 18,
+          "technical": 11.0,
+          "total": 50.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER大割安(12.5)"
+      ],
+      "fund_comment": "PER割安(10.8)・PBR低(1.6)・配当3.3%・売上+10%・利益+22%・ROE(13%)・連続増配15年",
+      "timing_comment": "PER大幅割安",
+      "tech_comment": "中期↑・RSI適正(45)・BB割安圏",
+      "rsi": 45.43227602653705,
+      "div_yield": 0.0333,
+      "pe": 10.788231,
+      "pbr": 1.6054586,
+      "consecutive_div": 15,
+      "ex_div_date": "2026-06-30 00:00:00+00:00",
+      "comment": "PER割安(10.8)・PBR低(1.6)・配当3.3%・売上+10%・利益+22%・ROE(13%)・連続増配15年"
+    },
+    {
+      "ticker": "AVGO",
+      "market": "US",
+      "name": "Broadcom Inc.",
+      "sector": "Technology",
+      "current_price": 368.79,
+      "total_score": 59.6,
+      "total_score_dividend": 43.2,
+      "total_score_growth": 43.0,
+      "judgment": "候補",
+      "quality_score": 66.0,
+      "timing_score": 50.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 44,
+          "news": 10.0,
+          "sector": 12.0,
+          "total": 66.0
+        },
+        "timing": {
+          "valuation": 21,
+          "macro": 18,
+          "technical": 11.0,
+          "total": 50.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 8,
+      "bargain_reasons": [
+        "52週下位(39%)"
+      ],
+      "fund_comment": "PER適正(18.9)・売上+48%・利益+85%・粗利率高(76%)・ROE高(37%)・財務健全・連続増配15年",
+      "timing_comment": "",
+      "tech_comment": "中期↑・RSI適正(43)・BB割安圏",
+      "rsi": 42.74704667219521,
+      "div_yield": 0.006999999999999999,
+      "pe": 18.905115,
+      "pbr": 20.01031,
+      "consecutive_div": 15,
+      "ex_div_date": "2026-06-22 00:00:00+00:00",
+      "comment": "PER適正(18.9)・売上+48%・利益+85%・粗利率高(76%)・ROE高(37%)・財務健全・連続増配15年"
+    },
+    {
+      "ticker": "2871.T",
+      "market": "JP",
+      "name": "ニチレイ",
+      "sector": "Consumer Defensive",
+      "current_price": 2149.5,
+      "total_score": 59.1,
+      "total_score_dividend": 43.1,
+      "total_score_growth": 42.5,
+      "judgment": "候補",
+      "quality_score": 64.5,
+      "timing_score": 51.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 47,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 64.5
+        },
+        "timing": {
+          "valuation": 26,
+          "macro": 18,
+          "technical": 7.0,
+          "total": 51.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER割安(9.1)・PBR低(1.9)・売上+34%・利益+22%・ROE(10%)・財務健全・連続増配7年",
+      "timing_comment": "PER大幅割安",
+      "tech_comment": "RSI適正(48)・BB割安圏",
+      "rsi": 48.02848908478932,
+      "div_yield": 0.0233,
+      "pe": 9.122353,
+      "pbr": 1.8702722,
+      "consecutive_div": 7,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(9.1)・PBR低(1.9)・売上+34%・利益+22%・ROE(10%)・財務健全・連続増配7年"
+    },
+    {
+      "ticker": "7267.T",
+      "market": "JP",
+      "name": "本田技研工業",
+      "sector": "Consumer Cyclical",
+      "current_price": 1702.5,
+      "total_score": 58.9,
+      "total_score_dividend": 43.0,
+      "total_score_growth": 41.8,
+      "judgment": "候補",
+      "quality_score": 61.5,
+      "timing_score": 55.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 44,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 61.5
+        },
+        "timing": {
+          "valuation": 30,
+          "macro": 18,
+          "technical": 7.0,
+          "total": 55.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 30,
+      "bargain_reasons": [
+        "PER大割安(7.5)",
+        "PBR低(0.5)"
+      ],
+      "fund_comment": "PER割安(7.5)・PBR<1(0.5)・配当4.2%・売上+14%・利益+148%・連続増配7年",
+      "timing_comment": "52週高値圏(89%)・PER大幅割安・配当落ち31日前(買い時)",
+      "tech_comment": "RSI適正(52)・BB割安圏",
+      "rsi": 52.14917257792907,
+      "div_yield": 0.0421,
+      "pe": 7.462523,
+      "pbr": 0.53617084,
+      "consecutive_div": 7,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(7.5)・PBR<1(0.5)・配当4.2%・売上+14%・利益+148%・連続増配7年"
+    },
+    {
+      "ticker": "BAC",
+      "market": "US",
+      "name": "Bank of America",
+      "sector": "Financial Services",
+      "current_price": 62.32,
+      "total_score": 58.3,
+      "total_score_dividend": 42.3,
+      "total_score_growth": 41.6,
+      "judgment": "候補",
+      "quality_score": 62.5,
+      "timing_score": 52.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 41,
+          "news": 9.5,
+          "sector": 12.0,
+          "total": 62.5
+        },
+        "timing": {
+          "valuation": 23,
+          "macro": 18,
+          "technical": 11.0,
+          "total": 52.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER大割安(14.4)"
+      ],
+      "fund_comment": "PER割安(11.8)・PBR低(1.6)・売上+17%・利益+34%・ROE(11%)・連続増配21年",
+      "timing_comment": "PER大幅割安",
+      "tech_comment": "中期↑・RSI適正(51)・BB割安圏",
+      "rsi": 50.85744124281578,
+      "div_yield": 0.0209,
+      "pe": 11.76886,
+      "pbr": 1.5840578,
+      "consecutive_div": 21,
+      "ex_div_date": "2026-09-04 00:00:00+00:00",
+      "comment": "PER割安(11.8)・PBR低(1.6)・売上+17%・利益+34%・ROE(11%)・連続増配21年"
+    },
+    {
+      "ticker": "2502.T",
+      "market": "JP",
+      "name": "アサヒグループHD",
+      "sector": "Consumer Defensive",
+      "current_price": 1670.5,
+      "total_score": 57.5,
+      "total_score_dividend": 42.0,
+      "total_score_growth": 40.9,
+      "judgment": "候補",
+      "quality_score": 60.5,
+      "timing_score": 53.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 43,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 60.5
+        },
+        "timing": {
+          "valuation": 27,
+          "macro": 18,
+          "technical": 8.0,
+          "total": 53.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 10,
+      "bargain_reasons": [
+        "PBR低(0.8)"
+      ],
+      "fund_comment": "PER適正(11.7)・PBR<1(0.8)・配当3.7%・売上+12%・利益+114%・財務健全・流動性低⚠・連続増配25年",
+      "timing_comment": "PER割安",
+      "tech_comment": "RSI適正(51)・BB割安圏・出来高↑1.8x",
+      "rsi": 50.73533331148898,
+      "div_yield": 0.0373,
+      "pe": 11.676102,
+      "pbr": 0.7662257,
+      "consecutive_div": 25,
+      "ex_div_date": "2026-12-29 00:00:00+00:00",
+      "comment": "PER適正(11.7)・PBR<1(0.8)・配当3.7%・売上+12%・利益+114%・財務健全・流動性低⚠・連続増配25年"
+    },
+    {
+      "ticker": "GOOGL",
+      "market": "US",
+      "name": "Alphabet Inc.",
+      "sector": "Communication Services",
+      "current_price": 346.59,
+      "total_score": 56.4,
+      "total_score_dividend": 44.8,
+      "total_score_growth": 41.8,
+      "judgment": "要観察",
+      "quality_score": 68.0,
+      "timing_score": 39.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 46,
+          "news": 10.0,
+          "sector": 12.0,
+          "total": 68.0
+        },
+        "timing": {
+          "valuation": 14,
+          "macro": 18,
+          "technical": 7.0,
+          "total": 39.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 10,
+      "bargain_reasons": [
+        "PER割安(17.4)"
+      ],
+      "fund_comment": "高配当26.0%・売上+24%・利益+294%・粗利率高(61%)・ROE高(49%)・財務健全",
+      "timing_comment": "配当落ち直前(6日)",
+      "tech_comment": "RSI適正(49)・BB割安圏",
+      "rsi": 49.262493784937654,
+      "div_yield": 0.26,
+      "pe": 23.374542,
+      "pbr": 6.8097687,
+      "consecutive_div": 1,
+      "ex_div_date": "2026-09-04 00:00:00+00:00",
+      "comment": "高配当26.0%・売上+24%・利益+294%・粗利率高(61%)・ROE高(49%)・財務健全"
+    },
+    {
+      "ticker": "ORCL",
+      "market": "US",
+      "name": "Oracle Corp.",
+      "sector": "Technology",
+      "current_price": 150.85,
+      "total_score": 60.8,
+      "total_score_dividend": 42.0,
+      "total_score_growth": 41.6,
+      "judgment": "参考",
+      "quality_score": 56.0,
+      "timing_score": 68.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 34,
+          "news": 10.0,
+          "sector": 12.0,
+          "total": 56.0
+        },
+        "timing": {
+          "valuation": 40,
+          "macro": 18,
+          "technical": 10.0,
+          "total": 68.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(16%)"
+      ],
+      "fund_comment": "PER割安(13.8)・売上+21%・利益+22%・粗利率高(66%)・ROE高(53%)・高負債⚠",
+      "timing_comment": "52週安値圏(16%)・PER大幅割安",
+      "tech_comment": "短期↑・RSI適正(56)・MACD↑",
+      "rsi": 56.10328676337344,
+      "div_yield": 0.0132,
+      "pe": 13.806353,
+      "pbr": 11.568252,
+      "consecutive_div": 3,
+      "ex_div_date": "2026-07-10 00:00:00+00:00",
+      "comment": "PER割安(13.8)・売上+21%・利益+22%・粗利率高(66%)・ROE高(53%)・高負債⚠"
+    },
+    {
+      "ticker": "9302.T",
+      "market": "JP",
+      "name": "三井倉庫HD",
+      "sector": "Industrials",
+      "current_price": 3358.0,
+      "total_score": 60.7,
+      "total_score_dividend": 41.7,
+      "total_score_growth": 41.2,
+      "judgment": "参考",
+      "quality_score": 54.5,
+      "timing_score": 70.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 37,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 54.5
+        },
+        "timing": {
+          "valuation": 40,
+          "macro": 18,
+          "technical": 12.0,
+          "total": 70.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(18%)"
+      ],
+      "fund_comment": "PER割安(7.7)・PBR低(1.9)・ROE(11%)・財務健全・連続増配15年",
+      "timing_comment": "52週安値圏(18%)・PER大幅割安",
+      "tech_comment": "RSI適正(42)・MACD↑・BB割安圏・出来高↑1.6x",
+      "rsi": 42.476217392470076,
+      "div_yield": 0.015,
+      "pe": 7.6736746,
+      "pbr": 1.8599571,
+      "consecutive_div": 15,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(7.7)・PBR低(1.9)・ROE(11%)・財務健全・連続増配15年"
+    },
+    {
+      "ticker": "6902.T",
+      "market": "JP",
+      "name": "デンソー",
+      "sector": "Consumer Cyclical",
+      "current_price": 1915.5,
+      "total_score": 60.1,
+      "total_score_dividend": 41.9,
+      "total_score_growth": 40.8,
+      "judgment": "参考",
+      "quality_score": 53.5,
+      "timing_score": 70.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 36,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 53.5
+        },
+        "timing": {
+          "valuation": 45,
+          "macro": 18,
+          "technical": 7.0,
+          "total": 70.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 35,
+      "bargain_reasons": [
+        "PER割安(11.8)",
+        "PBR低(0.9)",
+        "52週安値圏(20%)"
+      ],
+      "fund_comment": "PER割安(9.9)・PBR<1(0.9)・配当3.9%・利益減⚠・財務健全・連続増配8年",
+      "timing_comment": "52週下位(20%)・PER大幅割安・配当落ち31日前(買い時)",
+      "tech_comment": "RSI適正(45)・BB割安圏",
+      "rsi": 44.57506007483954,
+      "div_yield": 0.038900000000000004,
+      "pe": 9.934135,
+      "pbr": 0.9392409,
+      "consecutive_div": 8,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(9.9)・PBR<1(0.9)・配当3.9%・利益減⚠・財務健全・連続増配8年"
+    },
+    {
+      "ticker": "PEP",
+      "market": "US",
+      "name": "PepsiCo Inc.",
+      "sector": "Consumer Defensive",
+      "current_price": 141.07,
+      "total_score": 59.5,
+      "total_score_dividend": 41.5,
+      "total_score_growth": 40.2,
+      "judgment": "参考",
+      "quality_score": 52.5,
+      "timing_score": 70.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 32,
+          "news": 10.5,
+          "sector": 10.0,
+          "total": 52.5
+        },
+        "timing": {
+          "valuation": 35,
+          "macro": 18,
+          "technical": 17.0,
+          "total": 70.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 25,
+      "bargain_reasons": [
+        "PER割安(18.5)",
+        "52週安値圏(19%)"
+      ],
+      "fund_comment": "PER適正(15.7)・配当4.2%・利益+137%・粗利率高(54%)・ROE高(52%)・高負債⚠・流動性低⚠・連続増配25年",
+      "timing_comment": "52週安値圏(19%)・PER割安・配当落ち直前(6日)",
+      "tech_comment": "中期↑・短期↑・RSI適正(51)・MACD↑・BB割安圏",
+      "rsi": 51.17962760709306,
+      "div_yield": 0.0424,
+      "pe": 15.712084,
+      "pbr": 8.720406,
+      "consecutive_div": 25,
+      "ex_div_date": "2026-09-04 00:00:00+00:00",
+      "comment": "PER適正(15.7)・配当4.2%・利益+137%・粗利率高(54%)・ROE高(52%)・高負債⚠・流動性低⚠・連続増配25年"
+    },
+    {
+      "ticker": "WFC",
+      "market": "US",
+      "name": "Wells Fargo",
+      "sector": "Financial Services",
+      "current_price": 86.69,
+      "total_score": 57.7,
+      "total_score_dividend": 41.5,
+      "total_score_growth": 40.8,
+      "judgment": "参考",
+      "quality_score": 59.5,
+      "timing_score": 55.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 38,
+          "news": 9.5,
+          "sector": 12.0,
+          "total": 59.5
+        },
+        "timing": {
+          "valuation": 26,
+          "macro": 18,
+          "technical": 11.0,
+          "total": 55.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER大割安(12.6)"
+      ],
+      "fund_comment": "PER割安(11.0)・PBR低(1.6)・利益+25%・ROE(13%)・連続増配36年",
+      "timing_comment": "PER大幅割安",
+      "tech_comment": "中期↑・RSI適正(53)・BB割安圏",
+      "rsi": 53.11446435569018,
+      "div_yield": 0.0235,
+      "pe": 10.972835,
+      "pbr": 1.629695,
+      "consecutive_div": 36,
+      "ex_div_date": "2026-08-07 00:00:00+00:00",
+      "comment": "PER割安(11.0)・PBR低(1.6)・利益+25%・ROE(13%)・連続増配36年"
+    },
+    {
+      "ticker": "5401.T",
+      "market": "JP",
+      "name": "日本製鉄",
+      "sector": "Basic Materials",
+      "current_price": 677.0,
+      "total_score": 57.7,
+      "total_score_dividend": 41.4,
+      "total_score_growth": 40.4,
+      "judgment": "参考",
+      "quality_score": 57.5,
+      "timing_score": 58.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 40,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 57.5
+        },
+        "timing": {
+          "valuation": 33,
+          "macro": 18,
+          "technical": 7.0,
+          "total": 58.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 10,
+      "bargain_reasons": [
+        "PBR低(0.6)"
+      ],
+      "fund_comment": "PER割安(1.2)・PBR<1(0.6)・配当3.6%・売上+40%・連続増配6年",
+      "timing_comment": "PER大幅割安・配当落ち31日前(買い時)",
+      "tech_comment": "RSI適正(57)・BB割安圏",
+      "rsi": 57.423144559431044,
+      "div_yield": 0.0358,
+      "pe": 1.2133052,
+      "pbr": 0.6277691,
+      "consecutive_div": 6,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER割安(1.2)・PBR<1(0.6)・配当3.6%・売上+40%・連続増配6年"
+    },
+    {
+      "ticker": "2768.T",
+      "market": "JP",
+      "name": "双日",
+      "sector": "Industrials",
+      "current_price": 5630.0,
+      "total_score": 57.5,
+      "total_score_dividend": 41.4,
+      "total_score_growth": 40.5,
+      "judgment": "参考",
+      "quality_score": 58.5,
+      "timing_score": 56.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 41,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 58.5
+        },
+        "timing": {
+          "valuation": 31,
+          "macro": 18,
+          "technical": 7.0,
+          "total": 56.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 20,
+      "bargain_reasons": [
+        "PER割安(11.4)",
+        "PBR低(1.0)"
+      ],
+      "fund_comment": "PER適正(10.7)・PBR低(1.0)・配当3.2%・売上+39%・利益+44%・ROE(11%)・CF赤字⚠",
+      "timing_comment": "PER割安・配当落ち31日前(買い時)",
+      "tech_comment": "RSI適正(54)・BB割安圏",
+      "rsi": 54.04241498940721,
+      "div_yield": 0.0322,
+      "pe": 10.650171,
+      "pbr": 1.0233178,
+      "consecutive_div": 0,
+      "ex_div_date": "2026-09-29 00:00:00+00:00",
+      "comment": "PER適正(10.7)・PBR低(1.0)・配当3.2%・売上+39%・利益+44%・ROE(11%)・CF赤字⚠"
+    },
+    {
+      "ticker": "NKE",
+      "market": "US",
+      "name": "Nike Inc.",
+      "sector": "Consumer Cyclical",
+      "current_price": 39.6,
+      "total_score": 56.7,
+      "total_score_dividend": 40.5,
+      "total_score_growth": 39.2,
+      "judgment": "参考",
+      "quality_score": 54.5,
+      "timing_score": 60.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 34,
+          "news": 10.5,
+          "sector": 10.0,
+          "total": 54.5
+        },
+        "timing": {
+          "valuation": 35,
+          "macro": 18,
+          "technical": 7.0,
+          "total": 60.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 15,
+      "bargain_reasons": [
+        "52週安値圏(3%)"
+      ],
+      "fund_comment": "PER適正(17.3)・配当4.3%・売上減⚠・利益+428%・ROE高(22%)・財務健全",
+      "timing_comment": "52週安値圏(3%)・PER割安・配当落ち直前(3日)",
+      "tech_comment": "RSI適正(44)・BB割安圏",
+      "rsi": 43.53035823066315,
+      "div_yield": 0.042699999999999995,
+      "pe": 17.284046,
+      "pbr": 3.9505186,
+      "consecutive_div": 3,
+      "ex_div_date": "2026-09-01 00:00:00+00:00",
+      "comment": "PER適正(17.3)・配当4.3%・売上減⚠・利益+428%・ROE高(22%)・財務健全"
+    },
+    {
+      "ticker": "NEM",
+      "market": "US",
+      "name": "Newmont Corp.",
+      "sector": "Basic Materials",
+      "current_price": 127.98,
+      "total_score": 55.3,
+      "total_score_dividend": 39.4,
+      "total_score_growth": 39.1,
+      "judgment": "参考",
+      "quality_score": 57.5,
+      "timing_score": 52.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 40,
+          "news": 7.5,
+          "sector": 10.0,
+          "total": 57.5
+        },
+        "timing": {
+          "valuation": 20,
+          "macro": 18,
+          "technical": 14.0,
+          "total": 52.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 10,
+      "bargain_reasons": [
+        "PER割安(16.2)"
+      ],
+      "fund_comment": "PER割安(12.7)・売上+15%・粗利率高(68%)・ROE高(26%)・財務健全・増配7年",
+      "timing_comment": "52週高値圏(88%)・PER大幅割安",
+      "tech_comment": "中期↑・短期↑・RSI適正(64)・MACD↑",
+      "rsi": 64.48941550295369,
+      "div_yield": 0.0079,
+      "pe": 12.690612,
+      "pbr": 3.8455532,
+      "consecutive_div": 7,
+      "ex_div_date": "2026-09-03 00:00:00+00:00",
+      "comment": "PER割安(12.7)・売上+15%・粗利率高(68%)・ROE高(26%)・財務健全・増配7年"
+    },
+    {
+      "ticker": "CVX",
+      "market": "US",
+      "name": "Chevron Corp.",
+      "sector": "Energy",
+      "current_price": 201.86,
+      "total_score": 55.0,
+      "total_score_dividend": 40.4,
+      "total_score_growth": 39.3,
+      "judgment": "参考",
+      "quality_score": 59.0,
+      "timing_score": 49.0,
+      "breakdown": {
+        "quality": {
+          "fundamental": 48,
+          "news": 5.0,
+          "sector": 6.0,
+          "total": 59.0
+        },
+        "timing": {
+          "valuation": 21,
+          "macro": 18,
+          "technical": 10.0,
+          "total": 49.0
+        }
+      },
+      "is_bargain": false,
+      "bargain_score": 0,
+      "bargain_reasons": [],
+      "fund_comment": "PER割安(15.2)・配当3.6%・売上+54%・利益+322%・ROE(12%)・財務健全・増配5年",
+      "timing_comment": "PER大幅割安",
+      "tech_comment": "中期↑・短期↑・RSI適正(61)",
+      "rsi": 61.453322286630616,
+      "div_yield": 0.0356,
+      "pe": 15.245061,
+      "pbr": 2.0853305,
+      "consecutive_div": 5,
+      "ex_div_date": "2026-08-19 00:00:00+00:00",
+      "comment": "PER割安(15.2)・配当3.6%・売上+54%・利益+322%・ROE(12%)・財務健全・増配5年"
+    }
+  ],
+  "bargain_picks": [],
+  "candidate_count": 24,
+  "news": {
+    "article_count": 98,
+    "crisis_count": 24,
+    "acute_count": 1,
+    "chronic_count": 7,
+    "acute_keywords": [],
+    "sector_scores": {
+      "Financials": 19.3,
+      "General": 15.0,
+      "Energy": 10.4,
+      "Industrials": 21.8,
+      "Technology": 20.3,
+      "Consumer": 21.1,
+      "Macro": 17.4,
+      "Healthcare": 15.0
+    },
+    "top_positive": [],
+    "top_negative": [],
+    "ticker_scores": {
+      "NVDA": 23.6,
+      "AAPL": 15.0,
+      "MSFT": 2.5,
+      "META": 18.8
+    },
+    "article_details": [
+      {
+        "title": "FRBによる9月利​上げ観測高まる",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T15:05:19+00:00",
+        "is_short_negative": false,
+        "title_ja": "FRBによる9月利​上げ観測高まる"
+      },
+      {
+        "title": "FRBによる9月利​上げ観測高まる",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T15:05:19+00:00",
+        "title_ja": "FRBによる9月利​上げ観測高まる"
+      },
+      {
+        "title": "1カ月の為替介入15兆円超 財務省",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T11:42:15+00:00",
+        "is_short_negative": false,
+        "title_ja": "1カ月の為替介入15兆円超 財務省"
+      },
+      {
+        "title": "1カ月の為替介入15兆円超 財務省",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T11:42:15+00:00",
+        "title_ja": "1カ月の為替介入15兆円超 財務省"
+      },
+      {
+        "title": "9月の電気ガス 全地域で値上がり",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T10:35:55+00:00",
+        "is_short_negative": false,
+        "title_ja": "9月の電気ガス 全地域で値上がり"
+      },
+      {
+        "title": "9月の電気ガス 全地域で値上がり",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T10:35:55+00:00",
+        "title_ja": "9月の電気ガス 全地域で値上がり"
+      },
+      {
+        "title": "社員逮捕 竹中工務店の副社長謝罪",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T09:09:16+00:00",
+        "is_short_negative": false,
+        "title_ja": "社員逮捕 竹中工務店の副社長謝罪"
+      },
+      {
+        "title": "社員逮捕 竹中工務店の副社長謝罪",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T09:09:16+00:00",
+        "title_ja": "社員逮捕 竹中工務店の副社長謝罪"
+      },
+      {
+        "title": "ガンホーとSME 資本業務提携",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T13:50:40+00:00",
+        "is_short_negative": false,
+        "title_ja": "ガンホーとSME 資本業務提携"
+      },
+      {
+        "title": "ガンホーとSME 資本業務提携",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T13:50:40+00:00",
+        "title_ja": "ガンホーとSME 資本業務提携"
+      },
+      {
+        "title": "大阪知事 USJ拡張意向聞いていた",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T09:59:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "大阪知事 USJ拡張意向聞いていた"
+      },
+      {
+        "title": "大阪知事 USJ拡張意向聞いていた",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T09:59:00+00:00",
+        "title_ja": "大阪知事 USJ拡張意向聞いていた"
+      },
+      {
+        "title": "「NISA貧乏」極限の投資生活 実態",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T07:22:55+00:00",
+        "is_short_negative": false,
+        "title_ja": "「NISA貧乏」極限の投資生活 実態"
+      },
+      {
+        "title": "「NISA貧乏」極限の投資生活 実態",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T07:22:55+00:00",
+        "title_ja": "「NISA貧乏」極限の投資生活 実態"
+      },
+      {
+        "title": "交通費で200万円 実家じまいの今",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T07:47:31+00:00",
+        "is_short_negative": false,
+        "title_ja": "交通費で200万円 実家じまいの今"
+      },
+      {
+        "title": "交通費で200万円 実家じまいの今",
+        "source": "yahoo_jp_stock",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T07:47:31+00:00",
+        "title_ja": "交通費で200万円 実家じまいの今"
+      },
+      {
+        "title": "183-year-old giant tool company closes factory, lays off dozens",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Industrials"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T16:03:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "183-year-old giant tool company closes factory, lays off dozens"
+      },
+      {
+        "title": "183-year-old giant tool company closes factory, lays off dozens",
+        "source": "yahoo_finance",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Industrials"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T16:03:00+00:00",
+        "title_ja": "183-year-old giant tool company closes factory, lays off dozens"
+      },
+      {
+        "title": "Nvidia’s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason",
+        "source": "marketwatch",
+        "sentiment": 0.564,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "NVDA"
+        ],
+        "crisis": 0,
+        "published": "2026-08-28T20:58:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "Nvidia’s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason"
+      },
+      {
+        "title": "Nvidia’s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason",
+        "source": "marketwatch",
+        "sentiment": 0.564,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "NVDA"
+        ],
+        "crisis": 0,
+        "published": "2026-08-28T20:58:00+00:00",
+        "title_ja": "Nvidia’s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason"
+      },
+      {
+        "title": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?",
+        "source": "marketwatch",
+        "sentiment": -0.765,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:45:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?"
+      },
+      {
+        "title": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?",
+        "source": "marketwatch",
+        "sentiment": -0.765,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:45:00+00:00",
+        "title_ja": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?"
+      },
+      {
+        "title": "Dolly Parton’s music, books and theme park see spikes in interest following her death",
+        "source": "marketwatch",
+        "sentiment": -0.67,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:21:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "Dolly Parton’s music, books and theme park see spikes in interest following her death"
+      },
+      {
+        "title": "Dolly Parton’s music, books and theme park see spikes in interest following her death",
+        "source": "marketwatch",
+        "sentiment": -0.67,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:21:00+00:00",
+        "title_ja": "Dolly Parton’s music, books and theme park see spikes in interest following her death"
+      },
+      {
+        "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
+        "source": "marketwatch",
+        "sentiment": 0.71,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Financials",
+          "Consumer",
+          "Macro"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T20:10:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word"
+      },
+      {
+        "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
+        "source": "marketwatch",
+        "sentiment": 0.71,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Financials",
+          "Consumer",
+          "Macro"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T20:10:00+00:00",
+        "title_ja": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word"
+      },
+      {
+        "title": "AI wants to help you pick a Medicare plan. Should you let it?",
+        "source": "marketwatch",
+        "sentiment": 0.869,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:05:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "AI wants to help you pick a Medicare plan. Should you let it?"
+      },
+      {
+        "title": "AI wants to help you pick a Medicare plan. Should you let it?",
+        "source": "marketwatch",
+        "sentiment": 0.869,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:05:00+00:00",
+        "title_ja": "AI wants to help you pick a Medicare plan. Should you let it?"
+      },
+      {
+        "title": "Meet Generation Renter — young Americans who don’t expect to ever own a home",
+        "source": "marketwatch",
+        "sentiment": 0.402,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T19:01:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "Meet Generation Renter — young Americans who don’t expect to ever own a home"
+      },
+      {
+        "title": "Meet Generation Renter — young Americans who don’t expect to ever own a home",
+        "source": "marketwatch",
+        "sentiment": 0.402,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T19:01:00+00:00",
+        "title_ja": "Meet Generation Renter — young Americans who don’t expect to ever own a home"
+      },
+      {
+        "title": "Should I use my financial institution’s ‘free’ advisers?",
+        "source": "marketwatch",
+        "sentiment": -0.296,
+        "duration": "mid",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T17:00:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "Should I use my financial institution’s ‘free’ advisers?"
+      },
+      {
+        "title": "Should I use my financial institution’s ‘free’ advisers?",
+        "source": "marketwatch",
+        "sentiment": -0.296,
+        "duration": "mid",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T17:00:00+00:00",
+        "title_ja": "Should I use my financial institution’s ‘free’ advisers?"
+      },
+      {
+        "title": "I’m turning 70. Here’s how I’m making this decade the richest of my retirement.",
+        "source": "marketwatch",
+        "sentiment": 0.527,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T16:48:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "I’m turning 70. Here’s how I’m making this decade the richest of my retirement."
+      },
+      {
+        "title": "I’m turning 70. Here’s how I’m making this decade the richest of my retirement.",
+        "source": "marketwatch",
+        "sentiment": 0.527,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T16:48:00+00:00",
+        "title_ja": "I’m turning 70. Here’s how I’m making this decade the richest of my retirement."
+      },
+      {
+        "title": "The biggest risk to retirement plans may no longer be a stock market crash or inflation",
+        "source": "marketwatch",
+        "sentiment": -0.802,
+        "duration": "mid",
+        "sectors": [
+          "Consumer",
+          "Macro"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T16:46:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "The biggest risk to retirement plans may no longer be a stock market crash or inflation"
+      },
+      {
+        "title": "The biggest risk to retirement plans may no longer be a stock market crash or inflation",
+        "source": "marketwatch",
+        "sentiment": -0.802,
+        "duration": "mid",
+        "sectors": [
+          "Consumer",
+          "Macro"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T16:46:00+00:00",
+        "title_ja": "The biggest risk to retirement plans may no longer be a stock market crash or inflation"
+      },
+      {
+        "title": "I’m 56 with $1.4 million and want to retire in 5 years. Do I move to California, New York or overseas?",
+        "source": "marketwatch",
+        "sentiment": 0.168,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T16:44:00+00:00",
+        "is_short_negative": false,
+        "title_ja": "I’m 56 with $1.4 million and want to retire in 5 years. Do I move to California, New York or overseas?"
+      },
+      {
+        "title": "I’m 56 with $1.4 million and want to retire in 5 years. Do I move to California, New York or overseas?",
+        "source": "marketwatch",
+        "sentiment": 0.168,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T16:44:00+00:00",
+        "title_ja": "I’m 56 with $1.4 million and want to retire in 5 years. Do I move to California, New York or overseas?"
+      },
+      {
+        "title": "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson",
+        "source": "cnbc_world",
+        "sentiment": 0.077,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T20:31:58+00:00",
+        "is_short_negative": false,
+        "title_ja": "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson"
+      },
+      {
+        "title": "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson",
+        "source": "cnbc_world",
+        "sentiment": 0.077,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T20:31:58+00:00",
+        "title_ja": "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson"
+      },
+      {
+        "title": "Corn and wheat prices jump to highest prices in more than three years",
+        "source": "cnbc_world",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:00:56+00:00",
+        "is_short_negative": false,
+        "title_ja": "Corn and wheat prices jump to highest prices in more than three years"
+      },
+      {
+        "title": "Corn and wheat prices jump to highest prices in more than three years",
+        "source": "cnbc_world",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:00:56+00:00",
+        "title_ja": "Corn and wheat prices jump to highest prices in more than three years"
+      },
+      {
+        "title": "Stock traders warm up to Warsh as volatility index touches year-to-date low",
+        "source": "cnbc_world",
+        "sentiment": -0.318,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T19:35:09+00:00",
+        "is_short_negative": false,
+        "title_ja": "Stock traders warm up to Warsh as volatility index touches year-to-date low"
+      },
+      {
+        "title": "Stock traders warm up to Warsh as volatility index touches year-to-date low",
+        "source": "cnbc_world",
+        "sentiment": -0.318,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T19:35:09+00:00",
+        "title_ja": "Stock traders warm up to Warsh as volatility index touches year-to-date low"
+      },
+      {
+        "title": "Apple hikes subscription prices for Apple TV and Apple One in the U.S.",
+        "source": "cnbc_world",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "AAPL"
+        ],
+        "crisis": 0,
+        "published": "2026-08-28T19:09:34+00:00",
+        "is_short_negative": false,
+        "title_ja": "Apple hikes subscription prices for Apple TV and Apple One in the U.S."
+      },
+      {
+        "title": "Apple hikes subscription prices for Apple TV and Apple One in the U.S.",
+        "source": "cnbc_world",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [
+          "AAPL"
+        ],
+        "crisis": 0,
+        "published": "2026-08-28T19:09:34+00:00",
+        "title_ja": "Apple hikes subscription prices for Apple TV and Apple One in the U.S."
+      },
+      {
+        "title": "Mark Walter's insurer Delaware Life sees two banks pause sale of its products amid probes",
+        "source": "cnbc_world",
+        "sentiment": 0.688,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T20:42:07+00:00",
+        "is_short_negative": false,
+        "title_ja": "Mark Walter's insurer Delaware Life sees two banks pause sale of its products amid probes"
+      },
+      {
+        "title": "Mark Walter's insurer Delaware Life sees two banks pause sale of its products amid probes",
+        "source": "cnbc_world",
+        "sentiment": 0.688,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T20:42:07+00:00",
+        "title_ja": "Mark Walter's insurer Delaware Life sees two banks pause sale of its products amid probes"
+      },
+      {
+        "title": "Trump loses bid to transfer New York hush money case to federal court",
+        "source": "cnbc_world",
+        "sentiment": -0.318,
+        "duration": "mid",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:56:24+00:00",
+        "is_short_negative": false,
+        "title_ja": "Trump loses bid to transfer New York hush money case to federal court"
+      },
+      {
+        "title": "Trump loses bid to transfer New York hush money case to federal court",
+        "source": "cnbc_world",
+        "sentiment": -0.318,
+        "duration": "mid",
+        "sectors": [
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:56:24+00:00",
+        "title_ja": "Trump loses bid to transfer New York hush money case to federal court"
+      },
+      {
+        "title": "U.S. appeals court rules against prediction markets, sets up likely fight at Supreme Court",
+        "source": "cnbc_world",
+        "sentiment": 0.452,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T19:32:48+00:00",
+        "is_short_negative": false,
+        "title_ja": "U.S. appeals court rules against prediction markets, sets up likely fight at Supreme Court"
+      },
+      {
+        "title": "U.S. appeals court rules against prediction markets, sets up likely fight at Supreme Court",
+        "source": "cnbc_world",
+        "sentiment": 0.452,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T19:32:48+00:00",
+        "title_ja": "U.S. appeals court rules against prediction markets, sets up likely fight at Supreme Court"
+      },
+      {
+        "title": "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties",
+        "source": "cnbc_world",
+        "sentiment": 0.382,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T18:13:13+00:00",
+        "is_short_negative": false,
+        "title_ja": "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties"
+      },
+      {
+        "title": "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties",
+        "source": "cnbc_world",
+        "sentiment": 0.382,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T18:13:13+00:00",
+        "title_ja": "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties"
+      },
+      {
+        "title": "How Taylor Farms became integral to America's food supply system",
+        "source": "cnbc_world",
+        "sentiment": -0.494,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T13:17:52+00:00",
+        "is_short_negative": false,
+        "title_ja": "How Taylor Farms became integral to America's food supply system"
+      },
+      {
+        "title": "How Taylor Farms became integral to America's food supply system",
+        "source": "cnbc_world",
+        "sentiment": -0.494,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T13:17:52+00:00",
+        "title_ja": "How Taylor Farms became integral to America's food supply system"
+      },
+      {
+        "title": "Imax says it's open to a sale. Why is no one buying?",
+        "source": "cnbc_world",
+        "sentiment": -0.612,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T11:54:53+00:00",
+        "is_short_negative": false,
+        "title_ja": "Imax says it's open to a sale. Why is no one buying?"
+      },
+      {
+        "title": "Imax says it's open to a sale. Why is no one buying?",
+        "source": "cnbc_world",
+        "sentiment": -0.612,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T11:54:53+00:00",
+        "title_ja": "Imax says it's open to a sale. Why is no one buying?"
+      },
+      {
+        "title": "Iran calls for global pushback against U.S. sanctions, says diplomacy 'isn't impossible'",
+        "source": "cnbc_world",
+        "sentiment": -0.637,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Macro"
+        ],
+        "tickers": [],
+        "crisis": 2,
+        "published": "2026-08-28T12:39:02+00:00",
+        "is_short_negative": false,
+        "title_ja": "Iran calls for global pushback against U.S. sanctions, says diplomacy 'isn't impossible'"
+      },
+      {
+        "title": "Iran calls for global pushback against U.S. sanctions, says diplomacy 'isn't impossible'",
+        "source": "cnbc_world",
+        "sentiment": -0.637,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Macro"
+        ],
+        "tickers": [],
+        "crisis": 2,
+        "published": "2026-08-28T12:39:02+00:00",
+        "title_ja": "Iran calls for global pushback against U.S. sanctions, says diplomacy 'isn't impossible'"
+      },
+      {
+        "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+        "source": "cnbc_world",
+        "sentiment": 0.128,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Financials",
+          "Consumer",
+          "Macro"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T16:11:51+00:00",
+        "is_short_negative": false,
+        "title_ja": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank"
+      },
+      {
+        "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+        "source": "cnbc_world",
+        "sentiment": 0.128,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Financials",
+          "Consumer",
+          "Macro"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T16:11:51+00:00",
+        "title_ja": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank"
+      },
+      {
+        "title": "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'",
+        "source": "cnbc_world",
+        "sentiment": 0.202,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T20:08:18+00:00",
+        "is_short_negative": false,
+        "title_ja": "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'"
+      },
+      {
+        "title": "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'",
+        "source": "cnbc_world",
+        "sentiment": 0.202,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Financials"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T20:08:18+00:00",
+        "title_ja": "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'"
+      },
+      {
+        "title": "CEO of buy now, pay later giant Affirm says high gas prices are hitting U.S. shoppers",
+        "source": "cnbc_world",
+        "sentiment": -0.103,
+        "duration": "mid",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:09:13+00:00",
+        "is_short_negative": false,
+        "title_ja": "CEO of buy now, pay later giant Affirm says high gas prices are hitting U.S. shoppers"
+      },
+      {
+        "title": "CEO of buy now, pay later giant Affirm says high gas prices are hitting U.S. shoppers",
+        "source": "cnbc_world",
+        "sentiment": -0.103,
+        "duration": "mid",
+        "sectors": [
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:09:13+00:00",
+        "title_ja": "CEO of buy now, pay later giant Affirm says high gas prices are hitting U.S. shoppers"
+      },
+      {
+        "title": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth",
+        "source": "cnbc_world",
+        "sentiment": -0.27,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T13:42:43+00:00",
+        "is_short_negative": false,
+        "title_ja": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth"
+      },
+      {
+        "title": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth",
+        "source": "cnbc_world",
+        "sentiment": -0.27,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T13:42:43+00:00",
+        "title_ja": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth"
+      },
+      {
+        "title": "What we learned from Warsh's Jackson Hole speech, and GE Vernova's CFO to retire",
+        "source": "cnbc_world",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T18:03:05+00:00",
+        "is_short_negative": false,
+        "title_ja": "What we learned from Warsh's Jackson Hole speech, and GE Vernova's CFO to retire"
+      },
+      {
+        "title": "What we learned from Warsh's Jackson Hole speech, and GE Vernova's CFO to retire",
+        "source": "cnbc_world",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T18:03:05+00:00",
+        "title_ja": "What we learned from Warsh's Jackson Hole speech, and GE Vernova's CFO to retire"
+      },
+      {
+        "title": "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare",
+        "source": "cnbc_world",
+        "sentiment": -0.886,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T11:50:45+00:00",
+        "is_short_negative": false,
+        "title_ja": "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare"
+      },
+      {
+        "title": "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare",
+        "source": "cnbc_world",
+        "sentiment": -0.886,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Energy"
+        ],
+        "tickers": [],
+        "crisis": 1,
+        "published": "2026-08-28T11:50:45+00:00",
+        "title_ja": "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare"
+      },
+      {
+        "title": "'Grand Theft Auto 6' preview signals blockbuster demand, analysts say",
+        "source": "cnbc_world",
+        "sentiment": 0.908,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Industrials"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T15:32:21+00:00",
+        "is_short_negative": false,
+        "title_ja": "'Grand Theft Auto 6' preview signals blockbuster demand, analysts say"
+      },
+      {
+        "title": "'Grand Theft Auto 6' preview signals blockbuster demand, analysts say",
+        "source": "cnbc_world",
+        "sentiment": 0.908,
+        "duration": "mid",
+        "sectors": [
+          "Technology",
+          "Industrials"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T15:32:21+00:00",
+        "title_ja": "'Grand Theft Auto 6' preview signals blockbuster demand, analysts say"
+      },
+      {
+        "title": "Marc Benioff is getting his mojo back as Salesforce's AI strength quiets skeptics",
+        "source": "cnbc_world",
+        "sentiment": 0.727,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T13:44:25+00:00",
+        "is_short_negative": false,
+        "title_ja": "Marc Benioff is getting his mojo back as Salesforce's AI strength quiets skeptics"
+      },
+      {
+        "title": "Marc Benioff is getting his mojo back as Salesforce's AI strength quiets skeptics",
+        "source": "cnbc_world",
+        "sentiment": 0.727,
+        "duration": "mid",
+        "sectors": [
+          "Technology"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T13:44:25+00:00",
+        "title_ja": "Marc Benioff is getting his mojo back as Salesforce's AI strength quiets skeptics"
+      },
+      {
+        "title": "Labor Department to propose expansion of association health plans, which could lower insurance costs for some workers",
+        "source": "cnbc_world",
+        "sentiment": -0.077,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T11:00:01+00:00",
+        "is_short_negative": false,
+        "title_ja": "Labor Department to propose expansion of association health plans, which could lower insurance costs for some workers"
+      },
+      {
+        "title": "Labor Department to propose expansion of association health plans, which could lower insurance costs for some workers",
+        "source": "cnbc_world",
+        "sentiment": -0.077,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T11:00:01+00:00",
+        "title_ja": "Labor Department to propose expansion of association health plans, which could lower insurance costs for some workers"
+      },
+      {
+        "title": "Tree Island Steel names Brian Liu as new COO",
+        "source": "investing_com",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:48:31+00:00",
+        "is_short_negative": false,
+        "title_ja": "Tree Island Steel names Brian Liu as new COO"
+      },
+      {
+        "title": "Tree Island Steel names Brian Liu as new COO",
+        "source": "investing_com",
+        "sentiment": 0.0,
+        "duration": "mid",
+        "sectors": [
+          "General"
+        ],
+        "tickers": [],
+        "crisis": 0,
+        "published": "2026-08-28T20:48:31+00:00",
+        "title_ja": "Tree Island Steel names Brian Liu as new COO"
+      }
+    ]
+  }
+}
